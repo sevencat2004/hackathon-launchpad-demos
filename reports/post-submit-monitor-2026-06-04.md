@@ -16,9 +16,21 @@ Live GitHub API check:
 ```text
 visibility: public
 default_branch: main
-latest remote commit: b045811b30744ea4334244960600daccac6c700a
-latest commit message: Add post-submit monitor report
+latest remote commit: 8aece7cdd49438c8464f419943043674c49bbe5a
+latest commit message: Add Sui final field review packet
 checked by git ls-remote on 2026-06-04
+```
+
+Public GitHub page check:
+
+```text
+https://github.com/sevencat2004/hackathon-launchpad-demos returned HTTP 200 on 2026-06-04.
+```
+
+Local Vercel reachability note:
+
+```text
+curl.exe -I -L --max-time 20 https://hackathon-launchpad-demos.vercel.app/sui/ timed out from this machine on 2026-06-04. This matches earlier local Vercel timeout behavior and is not by itself evidence that the public demo is down. Keep using browser/user screenshot or external fetch for final public-page proof.
 ```
 
 ## Local video assets
@@ -90,6 +102,11 @@ Ready assets:
 - Wallet handoff: `projects\sui-overflow\SUI_WALLET_HANDOFF.zh-CN.md`
 - YouTube/submission guide: `projects\sui-overflow\YOUTUBE_UPLOAD_AND_SUBMISSION.zh-CN.md`
 - Final field review packet: `projects\sui-overflow\FINAL_FIELD_REVIEW.zh-CN.md`
+
+Official source recheck on 2026-06-04:
+
+- Official Sui Overflow page still lists `Agentic Web` as a core track and says projects must select the one track that best represents the project.
+- Official handbook search result still shows `June 21 - Submission Deadline` and the `Agentic Web` prize ladder.
 
 Next user action if proceeding:
 
