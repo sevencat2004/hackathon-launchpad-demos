@@ -39,6 +39,7 @@ check(existsSync(path.join(root, "SUBMISSION_FIELD_PACKETS.md")), "root submissi
 check(existsSync(path.join(root, "VIDEO_STORYBOARDS.md")), "root video storyboards exists");
 check(existsSync(path.join(root, "VERCEL_DEPLOYMENT_PACKET.zh-CN.md")), "root Vercel deployment packet exists");
 check(existsSync(path.join(root, "docs", "uipath-claimdesk-agent-deck.md")), "UiPath presentation deck exists");
+check(existsSync(path.join(root, "outputs", "uipath-claimdesk-agent-demo.mp4")), "UiPath demo video exists");
 check(existsSync(path.join(root, "scripts", "prepare-devpost-assets.mjs")), "Devpost asset script exists");
 check(existsSync(path.join(root, "scripts", "prepare-video-recording-kit.mjs")), "video recording kit script exists");
 
