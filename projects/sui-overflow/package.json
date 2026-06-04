@@ -4,7 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "demo": "node src/milestones.mjs"
+    "demo": "node src/milestones.mjs",
+    "intent": "node src/sui-intent.mjs"
+  },
+  "dependencies": {
+    "@mysten/sui": "^2.17.0"
   }
 }
-

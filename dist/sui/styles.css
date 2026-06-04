@@ -127,7 +127,7 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: minmax(340px, 1.15fr) minmax(280px, 0.85fr) minmax(340px, 1.1fr);
+  grid-template-columns: minmax(300px, 1fr) minmax(260px, 0.8fr) minmax(260px, 0.8fr);
   gap: 14px;
 }
 
@@ -175,6 +175,58 @@ h1 {
   gap: 10px;
 }
 
+.address-status {
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--yellow);
+  border-radius: 6px;
+  padding: 10px;
+  color: var(--muted);
+  background: #fbfcfd;
+  line-height: 1.4;
+}
+
+.address-status[data-valid="true"] {
+  border-left-color: var(--green);
+  color: var(--green);
+}
+
+.pill {
+  border-radius: 999px;
+  background: #e9f2ff;
+  color: var(--blue);
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.intent-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0;
+}
+
+.intent-grid div {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #fbfcfd;
+  padding: 10px;
+}
+
+.intent-grid dt {
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.intent-grid dd {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 800;
+}
+
 label {
   color: var(--muted);
   font-weight: 800;
@@ -186,6 +238,10 @@ pre {
   white-space: pre-wrap;
   color: #263241;
   line-height: 1.5;
+}
+
+.panel[aria-label="Reviewer packet"] {
+  grid-column: 1 / -1;
 }
 
 @media (max-width: 920px) {
@@ -205,4 +261,3 @@ pre {
     padding: 18px 0;
   }
 }
-

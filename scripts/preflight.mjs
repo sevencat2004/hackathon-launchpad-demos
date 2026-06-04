@@ -45,6 +45,7 @@ check(existsSync(path.join(root, "docs", "splunk-runbook-relay-agent-deck.md")),
 check(existsSync(path.join(root, "outputs", "uipath-claimdesk-agent-demo.mp4")), "UiPath demo video exists");
 check(existsSync(path.join(root, "outputs", "splunk-runbook-relay-agent-demo.mp4")), "Splunk demo video exists");
 check(existsSync(path.join(root, "outputs", "h0-zero-stack-bountyops-demo.mp4")), "H0 demo video exists");
+check(existsSync(path.join(root, "outputs", "sui-grantflow-agent-demo.mp4")), "Sui demo video exists");
 check(existsSync(path.join(root, "scripts", "prepare-devpost-assets.mjs")), "Devpost asset script exists");
 check(existsSync(path.join(root, "scripts", "prepare-video-recording-kit.mjs")), "video recording kit script exists");
 

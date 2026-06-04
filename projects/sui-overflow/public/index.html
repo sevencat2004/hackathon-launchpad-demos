@@ -30,7 +30,7 @@
         </article>
         <article>
           <strong>Agentic Web target</strong>
-          <span>Sui SDK vs Move remains a later integration decision.</span>
+          <span>Sui SDK address checks and dry-run payment intent are included.</span>
         </article>
       </section>
 
@@ -47,9 +47,35 @@
           <p class="kicker">Wallet-safe handoff</p>
           <div class="handoff">
             <label for="public-address">Public Sui address</label>
-            <input id="public-address" value="0xPUBLIC_ADDRESS_ONLY" />
+            <input id="public-address" value="0xPUBLIC_ADDRESS_ONLY" autocomplete="off" spellcheck="false" />
             <p id="safety-note"></p>
+            <div id="address-status" class="address-status"></div>
           </div>
+        </section>
+
+        <section class="panel" aria-label="Sui intent">
+          <div class="section-heading">
+            <p class="kicker">Sui intent</p>
+            <span class="pill">Dry run</span>
+          </div>
+          <dl class="intent-grid">
+            <div>
+              <dt>Network</dt>
+              <dd>testnet-ready model</dd>
+            </div>
+            <div>
+              <dt>Asset</dt>
+              <dd>SUI</dd>
+            </div>
+            <div>
+              <dt>Amount</dt>
+              <dd>1 SUI</dd>
+            </div>
+            <div>
+              <dt>Signing</dt>
+              <dd>not requested</dd>
+            </div>
+          </dl>
         </section>
 
         <section class="panel" aria-label="Reviewer packet">

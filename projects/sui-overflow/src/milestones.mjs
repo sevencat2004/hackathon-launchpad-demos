@@ -1,8 +1,11 @@
+import { buildSuiPaymentIntent } from "./sui-intent.mjs";
+
 const project = {
   status: "first-stage prototype, not submitted, not paid",
   price: "500,000+ USD total prize pool shown by official Sui Overflow materials; award is track-dependent",
   title: "Sui GrantFlow Agent",
   publicWalletOnly: true,
+  sdkEvidence: "@mysten/sui address validation and dry-run payment intent model",
   milestones: [
     {
       name: "Discovery packet",
@@ -19,8 +22,8 @@ const project = {
       deliverable: "Sui wallet-safe payment handoff",
       acceptance: "only public address is used in the demo"
     }
-  ]
+  ],
+  paymentIntent: buildSuiPaymentIntent()
 };
 
 console.log(JSON.stringify(project, null, 2));
-

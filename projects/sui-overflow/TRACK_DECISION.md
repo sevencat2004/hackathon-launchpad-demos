@@ -22,12 +22,12 @@ Sui GrantFlow Agent is already framed as an agent-style planning and handoff too
 
 ## Why DeFi & Payments remains secondary
 
-The product touches payment handoff and public wallet addresses, but the current MVP does not move funds, create escrow, or integrate live Sui transactions. Calling it DeFi first would overstate the build. DeFi & Payments should remain a secondary angle only if we add Sui SDK or Move code later.
+The product touches payment handoff and public wallet addresses, and the MVP now includes `@mysten/sui` address validation plus a dry-run SUI payment intent. It still does not move funds, create escrow, sign transactions, or broadcast anything. Calling it DeFi first would overstate the build, so DeFi & Payments remains a secondary angle.
 
 ## Next technical slice
 
 1. Keep the public MVP as an Agentic Web prototype.
-2. Add a Sui SDK adapter only if the submission form rewards concrete Sui integration.
+2. Use the Sui SDK adapter as concrete proof that the wallet handoff is Sui-aware.
 3. Add a small Move package only if a track requirement makes it necessary.
 4. Never request, paste, or store a private key, seed phrase, recovery phrase, or wallet secret.
 

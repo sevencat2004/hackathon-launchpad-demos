@@ -11,6 +11,8 @@ grant, or hackathon project into reviewable deliverables and safe payment handof
 - milestone planner
 - acceptance criteria
 - public-address-only wallet handoff
+- `@mysten/sui` address validation in the CLI demo
+- dry-run SUI payment intent model
 - reviewer packet generation
 - copy action
 
@@ -22,6 +24,16 @@ From `D:\coin\hackathon-launchpad`:
 npm.cmd run serve:sui
 ```
 
+From this project directory, the Sui-specific CLI proof can also be run with:
+
+```powershell
+npm.cmd run demo
+npm.cmd run intent
+```
+
+The `intent` command uses public address validation only. It does not ask for a private key,
+seed phrase, recovery phrase, signature, or live transaction.
+
 ## Build
 
 From `D:\coin\hackathon-launchpad`:
@@ -31,4 +43,3 @@ npm.cmd run build:sui
 ```
 
 The deployable static bundle is written to `D:\coin\hackathon-launchpad\dist\sui`.
-
