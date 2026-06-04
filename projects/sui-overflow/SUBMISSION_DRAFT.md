@@ -22,6 +22,16 @@ private keys or confusing public wallet addresses with secrets.
 Sui GrantFlow Agent converts a project idea into milestones, acceptance criteria, wallet-safe
 action lists, and simulated payment intent artifacts.
 
+## Track Fit
+
+Primary track: Agentic Web.
+
+The project is an agent-style workflow tool for Sui builders. It prepares milestone plans,
+review packets, and wallet-safe handoff steps while keeping private wallet material out of
+the submission flow.
+
+Secondary angle: DeFi & Payments, only if the next build adds Sui SDK or Move payment logic.
+
 ## Demo Flow
 
 1. Define the project goal.
@@ -31,11 +41,11 @@ action lists, and simulated payment intent artifacts.
 
 ## Current Build State
 
-The first prototype includes a milestone model and wallet-safety demo. Next step is selecting
-the exact Sui Overflow track and deciding whether to add Sui SDK or Move contract code.
+The first prototype includes a milestone model and wallet-safety demo. Track decision is now
+Agentic Web. Next step is deciding whether Sui SDK or a small Move package adds enough value
+for final submission.
 
 ## User-Owned Steps
 
 Sui Overflow submission, Sui wallet creation/confirmation, public wallet address only,
 tax/KYC/payment onboarding if selected.
-

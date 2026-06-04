@@ -46,8 +46,12 @@ function buildPacket() {
     "Safety:",
     `- ${safetyNote}`,
     "",
+    "Track:",
+    "- Primary: Agentic Web.",
+    "- Secondary: DeFi & Payments only if a Sui SDK or Move payment slice is added.",
+    "",
     "Next technical choice:",
-    "- Decide whether this submission should use Sui SDK only or include a Move package."
+    "- Decide whether Sui SDK or a small Move package adds enough value for final submission."
   ].join("\n");
 }
 
@@ -62,4 +66,3 @@ document.querySelector("#copy").addEventListener("click", async () => {
 
 renderMilestones();
 buildPacket();
-

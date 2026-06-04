@@ -95,6 +95,7 @@ for (const file of ["README.md", "DEPLOYMENT.md"]) {
   const filePath = path.join(root, "projects", "sui-overflow", file);
   check(existsSync(filePath), `sui-overflow/${file} exists`);
 }
+check(existsSync(path.join(root, "projects", "sui-overflow", "TRACK_DECISION.md")), "sui-overflow/TRACK_DECISION.md exists");
 
 for (const file of ["h0.png", "splunk.png", "uipath.png", "sui.png"]) {
   const filePath = path.join(root, "outputs", "screenshots", file);

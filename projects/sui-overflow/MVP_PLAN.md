@@ -12,10 +12,14 @@ Build a prototype that:
 3. Shows a simulated escrow or payment-intent flow.
 4. Exports a reviewer packet.
 
+## Selected Track
+
+Target `Agentic Web` first. The product is an agent-style planning and handoff assistant. `DeFi & Payments` stays secondary unless we add live Sui SDK or Move payment/escrow behavior.
+
 ## Technical Shape
 
 - Web dashboard first.
-- Sui SDK integration after wallet/account setup is clear.
+- Sui SDK integration after wallet/account setup and submission value are clear.
 - No private key handling in Codex.
 - Optional Move package only if needed for the selected track.
 
@@ -25,4 +29,3 @@ Build a prototype that:
 - Build simulated milestone/payment model.
 - Add wallet safety copy.
 - Decide whether to implement Move contract or stay at app/tool layer.
-

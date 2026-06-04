@@ -6,9 +6,11 @@ Price: 500,000+ USD total prize pool shown by official Sui Overflow materials; a
 ## Official Source Snapshot
 
 - Page: https://overflow.sui.io/
+- Handbook: https://overflow.sui.io/handbook
 - Timeline: May through August 2026, with hackathon submission phase ending before later judging/finals.
 - Format: Sui ecosystem hackathon.
-- Theme fit: medium. Good if we build a Sui developer, wallet, payments, or agent tool.
+- Track decision: target `Agentic Web`; keep `DeFi & Payments` as a secondary angle only if Sui SDK or Move integration is added.
+- Theme fit: medium to high after track selection. Good if we build a Sui agent tool for milestone, review, and wallet-safe handoff workflows.
 
 ## Candidate Product
 
@@ -26,5 +28,4 @@ transaction primitives.
 
 ## First-Stage Decision
 
-Keep active as a medium-term track. Do not let it block H0/UiPath first builds.
-
+Keep active as a medium-term track with `Agentic Web` as the chosen direction. Do not let it block H0/UiPath first builds.
