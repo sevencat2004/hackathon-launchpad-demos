@@ -1,6 +1,6 @@
 # Sui Overflow 提交操作清单
 
-状态：材料已准备，尚未提交，尚未获奖，尚未付款。
+状态：材料和视频链接已准备，尚未提交，尚未获奖，尚未付款。
 金额：Sui Overflow 2026 总奖池 1,000,000+ USD，赛道奖金 500,000+ USD；实际奖金取决于赛道和评审结果。
 
 ## 现在不要乱填的内容
@@ -47,6 +47,12 @@ https://github.com/sevencat2004/hackathon-launchpad-demos
 
 ```text
 D:\coin\hackathon-launchpad\outputs\sui-grantflow-agent-demo.mp4
+```
+
+YouTube 视频：
+
+```text
+https://youtu.be/lgvusO6ePO4
 ```
 
 截图：
@@ -105,11 +111,11 @@ I designed and built the prototype end to end: the browser demo, milestone model
 
 ## 需要你配合的时机
 
-现在暂时不需要你操作。
+现在需要你打开官方 Sui Overflow 提交入口，按下面材料填表。
 
-后面如果正式提交，需要你做：
+提交过程中需要你做：
 
-1. 上传 `sui-grantflow-agent-demo.mp4` 到 YouTube，公开或不公开都可以，只要链接能被评委打开。
+1. 如果表单要求视频链接，填 `https://youtu.be/lgvusO6ePO4`。
 2. 如果表单要求钱包地址，只填你的 Sui 公共地址。
 3. 你自己在官方页面完成账号、身份、税务、KYC、收款这些个人步骤。
 

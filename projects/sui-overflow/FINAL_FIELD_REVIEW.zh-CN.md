@@ -56,7 +56,7 @@ https://github.com/sevencat2004/hackathon-launchpad-demos
 Video:
 
 ```text
-Paste the YouTube link after uploading D:\coin\hackathon-launchpad\outputs\sui-grantflow-agent-demo.mp4
+https://youtu.be/lgvusO6ePO4
 ```
 
 Built with:

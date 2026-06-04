@@ -1,6 +1,6 @@
 # Sui GrantFlow Agent Submission Packet
 
-Status: prepared draft, not submitted, not approved, not paid.
+Status: prepared draft with demo video link, not submitted, not approved, not paid.
 Price: Sui Overflow 2026 has 500,000+ USD in track prizes and 1,000,000+ USD in total prizes and seed funding; actual award is track-dependent.
 
 ## Official source snapshot
@@ -43,6 +43,12 @@ Recommended video title:
 
 ```text
 Sui GrantFlow Agent Demo
+```
+
+Public demo video:
+
+```text
+https://youtu.be/lgvusO6ePO4
 ```
 
 ## Short description
@@ -142,6 +148,6 @@ This packet is ready for user-owned Sui Overflow submission steps.
 
 Remaining user-owned items:
 
-- upload the local Sui MP4 to YouTube if the form requires a video URL
+- use the uploaded Sui video URL `https://youtu.be/lgvusO6ePO4`
 - provide only a public Sui wallet address if the form asks for one
 - complete official account, identity, tax, KYC, and payment steps on official sites only

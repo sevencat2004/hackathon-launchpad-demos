@@ -1,6 +1,6 @@
-# Sui 视频上传与提交指令
+# Sui 视频与提交指令
 
-Status: user-owned upload/submission step pending, not submitted, not approved, not paid.
+Status: video uploaded, user-owned official submission step pending, not submitted, not approved, not paid.
 Price: Sui Overflow 2026 has 500,000+ USD in track prizes and 1,000,000+ USD in total prizes and seed funding; actual award is track-dependent.
 
 ## 什么时候用
@@ -9,12 +9,18 @@ Price: Sui Overflow 2026 has 500,000+ USD in track prizes and 1,000,000+ USD in 
 
 现在如果你不准备提交 Sui，可以先不用动。
 
-## 第一步：上传 YouTube 视频
+## 第一步：视频链接
 
 本地视频文件：
 
 ```text
 D:\coin\hackathon-launchpad\outputs\sui-grantflow-agent-demo.mp4
+```
+
+已上传的 YouTube 链接：
+
+```text
+https://youtu.be/lgvusO6ePO4
 ```
 
 YouTube 标题：
@@ -46,7 +52,7 @@ Unlisted
 
 两者都可以。不要选 Private。
 
-上传完成后，把 YouTube 链接发给我。
+视频已经可用。提交表单里如果要视频链接，就填上面的 YouTube 链接。
 
 ## 第二步：打开官方提交入口
 
@@ -89,7 +95,7 @@ https://github.com/sevencat2004/hackathon-launchpad-demos
 Video：
 
 ```text
-粘贴你刚上传的 YouTube 链接
+https://youtu.be/lgvusO6ePO4
 ```
 
 技术栈：
