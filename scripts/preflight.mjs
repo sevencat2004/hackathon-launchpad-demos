@@ -44,6 +44,7 @@ check(existsSync(path.join(root, "docs", "uipath-claimdesk-agent-deck.md")), "Ui
 check(existsSync(path.join(root, "docs", "splunk-runbook-relay-agent-deck.md")), "Splunk presentation deck exists");
 check(existsSync(path.join(root, "docs", "sui-grantflow-agent-submission-packet.md")), "Sui submission packet exists");
 check(existsSync(path.join(root, "docs", "four-project-submission-qa.md")), "four-project submission QA exists");
+check(existsSync(path.join(root, "docs", "h0-aws-evidence-template.md")), "H0 AWS evidence template exists");
 check(existsSync(path.join(root, "outputs", "uipath-claimdesk-agent-demo.mp4")), "UiPath demo video exists");
 check(existsSync(path.join(root, "outputs", "splunk-runbook-relay-agent-demo.mp4")), "Splunk demo video exists");
 check(existsSync(path.join(root, "outputs", "h0-zero-stack-bountyops-demo.mp4")), "H0 demo video exists");
@@ -76,6 +77,7 @@ for (const file of ["README.md", "DEPLOYMENT.md"]) {
   check(existsSync(filePath), `h0-zero-stack/${file} exists`);
 }
 check(existsSync(path.join(root, "projects", "h0-zero-stack", "AWS_COMPLIANCE_PLAN.md")), "h0-zero-stack/AWS_COMPLIANCE_PLAN.md exists");
+check(existsSync(path.join(root, "projects", "h0-zero-stack", "AWS_USER_HANDOFF.zh-CN.md")), "h0-zero-stack/AWS_USER_HANDOFF.zh-CN.md exists");
 check(existsSync(path.join(root, "projects", "h0-zero-stack", "api", "h0-reports.js")), "h0-zero-stack/api/h0-reports.js exists");
 
 for (const file of ["index.html", "styles.css", "app.js"]) {

@@ -38,6 +38,15 @@ Optional:
 The browser never receives AWS credentials. If the API is not configured yet, the app keeps
 using local draft storage and shows a clear status message.
 
+Final H0 submission remains blocked until a real AWS account or promotional-credit path is
+available and the required database evidence is captured.
+
+Submission support:
+
+- `D:\coin\hackathon-launchpad\projects\h0-zero-stack\AWS_COMPLIANCE_PLAN.md`
+- `D:\coin\hackathon-launchpad\projects\h0-zero-stack\AWS_USER_HANDOFF.zh-CN.md`
+- `D:\coin\hackathon-launchpad\docs\h0-aws-evidence-template.md`
+
 ## Run
 
 From `D:\coin\hackathon-launchpad`:
