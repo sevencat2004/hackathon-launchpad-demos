@@ -7,10 +7,11 @@ Price: Sui Overflow 2026 has 500,000+ USD in track prizes and 1,000,000+ USD in 
 
 - Sui Overflow 2026 site: `https://overflow.sui.io/`
 - Participant handbook: `https://mystenlabs.notion.site/overflow-2026-handbook`
-- Checked on 2026-06-04.
+- Checked on 2026-06-05.
 - Official track rule: choose the one track that best represents the project.
 - Selected track: `Agentic Web`.
 - Timeline from handbook: building period May 7 to June 21, 2026; submission deadline June 21, 2026; shortlisted teams announced July 8, 2026; demo days July 20-21, 2026; winners announced August 27, 2026.
+- Submission entry note: official Sui Overflow materials route registration/submission through a DeepSurge profile flow from `https://overflow.sui.io/`.
 - Prize payment note from handbook: 50% of a prize is awarded when winners are announced, and 50% after successful mainnet deployment. If a winning project is already on mainnet by the winners announcement, it may receive 100% upfront.
 
 ## Links

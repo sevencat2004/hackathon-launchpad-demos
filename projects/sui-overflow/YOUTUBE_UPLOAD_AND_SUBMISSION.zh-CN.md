@@ -56,7 +56,13 @@ Unlisted
 
 ## 第二步：打开官方提交入口
 
-你自己登录官方 Sui Overflow 提交入口。
+打开官方 Sui Overflow 页面：
+
+```text
+https://overflow.sui.io/
+```
+
+从页面里的注册/提交入口进入 DeepSurge，登录或创建你的 profile，然后进入 Sui Overflow 2026 项目提交流程。
 
 如果页面要你选择项目/赛道，先不要随便提交，截图给我。
 

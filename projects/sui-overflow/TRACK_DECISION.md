@@ -13,8 +13,9 @@ Secondary fit: `DeFi & Payments`
 
 - Sui Overflow site: `https://overflow.sui.io/`
 - Sui Overflow 2026 handbook: `https://overflow.sui.io/handbook`
-- Official timeline checked on 2026-06-04: Sui Overflow 2026 runs from May through August, with hackathon submissions due before judging and finalists.
-- Official handbook track list checked on 2026-06-04: core tracks include Agentic Web, Consumer, DeFi & Payments, Infrastructure & Tooling, and Move; specialized tracks include Walrus, DeepBook, SuiNS, DoubleUp, LoFi, Onchain Gaming, and Enoki.
+- Official timeline checked on 2026-06-05: Sui Overflow 2026 runs from May through August, with hackathon submissions due on June 21 before judging and finalists.
+- Official handbook track list checked on 2026-06-05: core tracks include Agentic Web, Consumer, DeFi & Payments, Infrastructure & Tooling, and Move; specialized tracks include Walrus, DeepBook, SuiNS, DoubleUp, LoFi, Onchain Gaming, and Enoki.
+- Official registration/submission entry checked on 2026-06-05: the public Sui Overflow page routes users through a DeepSurge profile flow.
 
 ## Why Agentic Web
 

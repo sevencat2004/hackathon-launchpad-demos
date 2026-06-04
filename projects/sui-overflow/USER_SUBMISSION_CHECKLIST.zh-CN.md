@@ -115,9 +115,10 @@ I designed and built the prototype end to end: the browser demo, milestone model
 
 提交过程中需要你做：
 
-1. 如果表单要求视频链接，填 `https://youtu.be/lgvusO6ePO4`。
-2. 如果表单要求钱包地址，只填你的 Sui 公共地址。
-3. 你自己在官方页面完成账号、身份、税务、KYC、收款这些个人步骤。
+1. 打开 `https://overflow.sui.io/`，从官方入口进入 DeepSurge 的 Sui Overflow 2026 提交流程。
+2. 如果表单要求视频链接，填 `https://youtu.be/lgvusO6ePO4`。
+3. 如果表单要求钱包地址，只填你的 Sui 公共地址。
+4. 你自己在官方页面完成账号、身份、税务、KYC、收款这些个人步骤。
 
 ## 提交前检查
 
