@@ -23,7 +23,6 @@ Target: 90 to 120 seconds.
 
 Zero Stack BountyOps helps builders decide what to pursue before they spend engineering time.
 Instead of treating a large prize as automatically worth it, the app scores theme fit,
-Codex autonomy, collectability, account risk, and time pressure. It then generates an
+build autonomy, collectability, account risk, and time pressure. It then generates an
 auditable packet with risk reasons, next steps, and the human-owned actions needed for final
 submission and payment.
-

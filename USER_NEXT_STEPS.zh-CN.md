@@ -13,7 +13,8 @@ Price: mixed; H0 80,000 USD cash, UiPath 50,000 USD cash, Sui Overflow 500,000+ 
 2. H0
 
 - 确认你是否有 Vercel 账号。
-- 如果要接 AWS，确认是否有 AWS 账号。
+- H0 最终提交必须接 AWS database。请确认是否有 AWS 账号，或在 H0 活动页面申请 AWS promotional credits。
+- 不要把 AWS access key secret、root 密码、验证码发到聊天里。
 - 不要在聊天里发 API key、密码、一次性验证码、银行卡、税号。
 
 3. UiPath
@@ -32,11 +33,10 @@ Price: mixed; H0 80,000 USD cash, UiPath 50,000 USD cash, Sui Overflow 500,000+ 
 - 后续如果决定提交，再创建/确认 Sui 钱包。
 - 只提供 public address；不要提供私钥、助记词、恢复短语。
 
-## Codex 继续负责
+## 项目负责人继续负责
 
 - H0 可部署 MVP、Devpost 文案、README、截图/视频脚本。
 - UiPath 工作流映射和提交材料。
 - Splunk 日志/Runbook demo 和 Splunk 集成清单。
 - Sui 里程碑/钱包安全 demo 和 track 选择材料。
 - 中央记录维护。
-

@@ -33,7 +33,7 @@ Each track has a separate project folder under `projects/`. First-stage completi
 
 ## User-Owned Actions
 
-Codex can build project assets, code, docs, and demo materials. The user must personally handle:
+The project lead can prepare project assets, code, docs, and demo materials. The user must personally handle:
 
 - Devpost registration and final submission clicks
 - platform accounts and login verification
@@ -48,4 +48,3 @@ Run:
 ```powershell
 npm.cmd test
 ```
-

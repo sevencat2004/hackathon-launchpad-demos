@@ -8,7 +8,7 @@ Price: 80,000 USD cash prize pool.
 - Page: https://h01.devpost.com/
 - Deadline: 2026-06-29 8:30 PM PDT.
 - Format: Devpost hackathon.
-- Theme fit: high. Full-stack AI product work fits Codex delivery well.
+- Theme fit: high. Full-stack agentic product work fits the current build direction well.
 
 ## Candidate Product
 
@@ -33,4 +33,3 @@ using the user's existing bounty workflow without exposing private data.
 ## First-Stage Decision
 
 Proceed as the first build target if Vercel/AWS resources are available.
-

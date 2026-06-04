@@ -65,6 +65,7 @@ for (const file of ["README.md", "DEPLOYMENT.md"]) {
   const filePath = path.join(root, "projects", "h0-zero-stack", file);
   check(existsSync(filePath), `h0-zero-stack/${file} exists`);
 }
+check(existsSync(path.join(root, "projects", "h0-zero-stack", "AWS_COMPLIANCE_PLAN.md")), "h0-zero-stack/AWS_COMPLIANCE_PLAN.md exists");
 
 for (const file of ["index.html", "styles.css", "app.js"]) {
   const filePath = path.join(root, "projects", "splunk-agentic-ops", "public", file);

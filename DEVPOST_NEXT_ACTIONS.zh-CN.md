@@ -3,7 +3,7 @@
 Status: ready for draft project creation, not finally submitted, not approved, not paid.
 Price: H0 80,000 USD cash; UiPath AgentHack 50,000 USD cash; Splunk Agentic Ops Challenge 20,000 USD total cash and feedback awards; Sui Overflow 500,000+ USD total prize pool / track-dependent.
 
-这个文件给用户在 Devpost 页面创建项目草稿时使用。不要直接最终提交。每个项目创建到提交前检查页后，先截图给 Codex 复核。
+这个文件给用户在 Devpost 页面创建项目草稿时使用。不要直接最终提交。每个项目创建到提交前检查页后，先截图给项目负责人复核。
 
 ## 通用链接
 
@@ -30,7 +30,15 @@ Price: H0 80,000 USD cash; UiPath AgentHack 50,000 USD cash; Splunk Agentic Ops 
 - Demo link: `https://hackathon-launchpad-demos.vercel.app/h0/`
 - Source code link: `https://github.com/sevencat2004/hackathon-launchpad-demos`
 - Built with: `HTML`, `CSS`, `JavaScript`, `Node.js`
-- Status: MVP draft, public demo deployed, not submitted, not paid.
+- Status: MVP draft, public demo deployed, not submitted, not paid. H0 final submission still needs AWS database evidence.
+
+### H0 重要阻断点
+
+H0 可以先创建 Devpost 草稿页，但不要最终提交。
+
+官方规则要求项目使用至少一个 AWS database 作为 primary backend，范围包括 Aurora、Aurora DSQL 或 DynamoDB。我们当前公开 demo 还是静态原型，最终提交前必须补 AWS 数据库集成、AWS 使用截图、架构图、Vercel 项目链接、Vercel Team ID 和 demo video。
+
+如果页面问 AWS database / Aurora / DynamoDB / architecture / Vercel Team ID，先停，截图给项目负责人，不要自己编。
 
 ### H0 short description
 
@@ -73,7 +81,7 @@ The current version uses a static dashboard and a small JSON inbox so reviewers 
 ### UiPath screenshots
 
 - Upload `D:\coin\hackathon-launchpad\outputs\screenshots\uipath.png` if Devpost asks for images.
-- If Devpost asks which UiPath product is used and requires a real UiPath environment, stop and send a screenshot to Codex before answering.
+- If Devpost asks which UiPath product is used and requires a real UiPath environment, stop and send a screenshot for review before answering.
 
 ## Splunk 填表包
 
@@ -99,17 +107,18 @@ This first build uses synthetic data because it is safe to show publicly. Once S
 ### Splunk screenshots
 
 - Upload `D:\coin\hackathon-launchpad\outputs\screenshots\splunk.png` if Devpost asks for images.
-- If Devpost requires proof of a real Splunk account, stop and send a screenshot to Codex before answering.
+- If Devpost requires proof of a real Splunk account, stop and send a screenshot for review before answering.
 
 ## 你在页面上遇到这些情况时先停
 
 - 页面要求付款、信用卡、升级 Pro、税务、KYC、银行卡。
 - 页面要求 OAuth、API key、token、一次性验证码。
 - 页面要求说明 AWS / UiPath / Splunk 的真实账号集成程度。
+- H0 页面要求 AWS database 使用截图、架构图、Vercel Team ID、Aurora、Aurora DSQL、DynamoDB。
 - 页面出现 final submit / submit project / complete submission 之类最终提交按钮。
 - 页面要求上传视频，但没有跳过选项。
 
-遇到以上情况，截图发给 Codex，不要自己硬填。
+遇到以上情况，截图发给项目负责人复核，不要自己硬填。
 
 ## 最终提交前检查
 

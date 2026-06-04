@@ -20,7 +20,7 @@ Target `Agentic Web` first. The product is an agent-style planning and handoff a
 
 - Web dashboard first.
 - Sui SDK integration after wallet/account setup and submission value are clear.
-- No private key handling in Codex.
+- No private key handling in the project workspace.
 - Optional Move package only if needed for the selected track.
 
 ## First Code Tasks

@@ -7,7 +7,7 @@ Price: 50,000 USD cash prize pool.
 
 - Register or log in to Devpost.
 - Create or confirm UiPath account access.
-- Tell Codex which UiPath surface is available: Studio, Studio Web, Automation Cloud, or Labs.
+- Tell the project lead which UiPath surface is available: Studio, Studio Web, Automation Cloud, or Labs.
 - Complete final Devpost submission.
 - Complete tax, KYC, prize, or payment onboarding if selected.
 
@@ -17,4 +17,3 @@ Price: 50,000 USD cash prize pool.
 - Tax ID in chat
 - Bank details
 - Passwords
-
