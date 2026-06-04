@@ -43,6 +43,7 @@ check(existsSync(path.join(root, "VERCEL_DEPLOYMENT_PACKET.zh-CN.md")), "root Ve
 check(existsSync(path.join(root, "docs", "uipath-claimdesk-agent-deck.md")), "UiPath presentation deck exists");
 check(existsSync(path.join(root, "docs", "splunk-runbook-relay-agent-deck.md")), "Splunk presentation deck exists");
 check(existsSync(path.join(root, "docs", "sui-grantflow-agent-submission-packet.md")), "Sui submission packet exists");
+check(existsSync(path.join(root, "docs", "four-project-submission-qa.md")), "four-project submission QA exists");
 check(existsSync(path.join(root, "outputs", "uipath-claimdesk-agent-demo.mp4")), "UiPath demo video exists");
 check(existsSync(path.join(root, "outputs", "splunk-runbook-relay-agent-demo.mp4")), "Splunk demo video exists");
 check(existsSync(path.join(root, "outputs", "h0-zero-stack-bountyops-demo.mp4")), "H0 demo video exists");
