@@ -32,4 +32,4 @@ using the user's existing bounty workflow without exposing private data.
 
 ## First-Stage Decision
 
-Proceed as the first build target if Vercel/AWS resources are available.
+Keep as a draft-ready project. Final H0 submission is blocked until AWS promotional credits or an AWS account path is available.

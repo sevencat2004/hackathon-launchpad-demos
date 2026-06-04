@@ -44,8 +44,8 @@
             <label for="time-risk">Time risk <output id="time-risk-output">4</output></label>
             <input id="time-risk" type="range" min="1" max="10" value="4" />
 
-            <label for="account-risk">Account risk <output id="account-risk-output">5</output></label>
-            <input id="account-risk" type="range" min="1" max="10" value="5" />
+            <label for="account-risk">Account risk <output id="account-risk-output">9</output></label>
+            <input id="account-risk" type="range" min="1" max="10" value="9" />
           </div>
 
           <button id="analyze" type="button">Analyze</button>
@@ -53,15 +53,15 @@
 
         <section class="panel score-panel" aria-label="Score result">
           <div class="score-ring">
-            <span id="score">74</span>
+            <span id="score">68</span>
             <small>/100</small>
           </div>
           <div>
             <p class="kicker">Recommendation</p>
-            <h2 id="recommendation">Primary build target</h2>
+            <h2 id="recommendation">Build after access is clear</h2>
             <p id="summary">
-              Strong agent/product fit with manageable account risk. Build the H0 MVP first,
-              then reuse the scoring and export flow for UiPath, Splunk, and Sui.
+              Strong agent/product fit, but final submission needs AWS database evidence.
+              Keep the draft warm until AWS credits or an account path is available.
             </p>
           </div>
         </section>
@@ -88,7 +88,10 @@
 
       <section class="saved-band" aria-label="Saved reports">
         <div class="section-heading">
-          <p class="kicker">Saved reports</p>
+          <div>
+            <p class="kicker">Saved reports</p>
+            <p id="save-status" class="save-status">Local draft storage ready.</p>
+          </div>
           <button id="clear-saved" type="button">Clear</button>
         </div>
         <div id="saved-reports" class="saved-grid"></div>
@@ -97,7 +100,7 @@
       <section class="tracks" aria-label="Parallel tracks">
         <article>
           <strong>H0</strong>
-          <span>Build first</span>
+          <span>AWS blocked</span>
         </article>
         <article>
           <strong>UiPath</strong>

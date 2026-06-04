@@ -3,6 +3,8 @@
 Status: compliance gap identified, not submitted, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
+Current user state checked on 2026-06-04: user has no AWS account. H0 can remain a draft project, but final submission is blocked unless AWS promotional credits or another safe AWS account path becomes available.
+
 ## Official requirement snapshot
 
 - Devpost page: `https://h01.devpost.com/`
@@ -13,12 +15,12 @@ Price: 80,000 USD cash prize pool.
 
 ## Current gap
 
-The current H0 demo is a public static prototype deployed on Vercel:
+The current H0 demo is a public prototype deployed on Vercel:
 
 - Demo: `https://hackathon-launchpad-demos.vercel.app/h0/`
 - Repo: `https://github.com/sevencat2004/hackathon-launchpad-demos`
 
-It is good enough for a draft project page and reviewer discussion, but it is not final-submit ready for H0 until AWS database usage is added and evidenced.
+It is good enough for a draft project page and reviewer discussion. The code now includes a DynamoDB-backed save route, but it is not final-submit ready for H0 until the route is connected to a real AWS account and the required evidence is captured.
 
 ## Preferred implementation
 
@@ -48,7 +50,7 @@ User must provide/authorize an AWS account path. Do not paste secrets in chat.
 Acceptable paths:
 
 1. User requests AWS promotional credits from the H0 event flow and confirms when available.
-2. User confirms an AWS account can be used for a small DynamoDB table.
+2. If an AWS account later becomes available, user confirms it can be used for a small DynamoDB table.
 3. User creates a limited IAM access key outside chat and stores it only in Vercel Environment Variables when the project lead gives the exact variable names.
 
 Do not send:
@@ -67,6 +69,12 @@ Do not fill these until the AWS account is ready:
 - `AWS_ACCESS_KEY_ID`
 - `AWS_SECRET_ACCESS_KEY`
 - `H0_REPORTS_TABLE`
+
+Implemented route:
+
+- `projects\h0-zero-stack\api\h0-reports.js`
+- Deployed path after build: `/api/h0-reports`
+- Behavior: `POST` saves a report to DynamoDB when AWS variables are present; otherwise the browser keeps local draft storage and shows that DynamoDB is not configured yet.
 
 ## Final submission evidence still needed
 

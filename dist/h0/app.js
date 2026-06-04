@@ -4,6 +4,7 @@ const recommendation = document.querySelector("#recommendation");
 const summary = document.querySelector("#summary");
 const reasons = document.querySelector("#reasons");
 const savedReports = document.querySelector("#saved-reports");
+const saveStatus = document.querySelector("#save-status");
 const storageKey = "zero-stack-bountyops-reports";
 
 const factorIds = [
@@ -29,7 +30,7 @@ function buildReasons(values) {
   if (values.themeFit >= 8) list.push("Strong hackathon-theme fit: agentic full-stack product work.");
   if (values.autonomy >= 8) list.push("The team can prepare most code, docs, demo script, and export assets without waiting on extra platform access.");
   if (values.collectability <= 6) list.push("Contest judging means payout is not guaranteed even with a complete build.");
-  if (values.accountRisk >= 6) list.push("User-owned account steps remain: Devpost, Vercel, AWS, prize/KYC.");
+  if (values.accountRisk >= 6) list.push("User-owned account steps remain: Devpost, Vercel, AWS credits or account path, prize/KYC.");
   if (values.timeRisk >= 7) list.push("Deadline pressure is high; keep the MVP narrow.");
   if (list.length === 0) list.push("No major risk reason triggered by the current inputs.");
   return list;
@@ -79,19 +80,20 @@ function buildPacket() {
     "",
     "Next build milestone:",
     "- Convert this dashboard to the deployable H0 app.",
-    "- Add saved opportunity reports.",
+    "- Keep saved opportunity reports working locally and through the optional DynamoDB API.",
     "- Export Devpost-ready README, screenshots, and demo script.",
+    "- Connect DynamoDB only if AWS credits or an AWS account become available.",
     "",
     "User-owned steps:",
     "- Register/log in to Devpost.",
-    "- Confirm Vercel/AWS access.",
+    "- Request H0 AWS credits or provide an AWS account path before final submit.",
     "- Complete final submission and prize/KYC/payment actions."
   ].join("\n");
 
   packet.textContent = text;
   score.textContent = String(scoreValue);
   recommendation.textContent = recommendationText;
-  summary.textContent = `${amount} with deadline ${deadline}. Build H0 first when the score stays above 70 and account access is clear.`;
+  summary.textContent = `${amount} with deadline ${deadline}. Keep H0 as a draft until AWS credits or an account path is available.`;
   reasons.innerHTML = reasonList.map((item) => `<li>${item}</li>`).join("");
   return { url, amount, deadline, scoreValue, recommendationText, text };
 }
@@ -117,19 +119,45 @@ function renderSavedReports() {
 
   savedReports.innerHTML = items
     .map(
-      (item) => `<article class="saved-card"><strong>${item.title}</strong><span>${item.score}/100 · ${item.createdAt}</span></article>`
+      (item) => `<article class="saved-card"><strong>${item.title}</strong><span>${item.score}/100 - ${item.backend || "local"} - ${item.createdAt}</span></article>`
     )
     .join("");
 }
 
-function saveCurrentReport() {
+async function saveReportToCloud(result) {
+  const response = await fetch("/api/h0-reports", {
+    method: "POST",
+    headers: {
+      "content-type": "application/json"
+    },
+    body: JSON.stringify(result)
+  });
+  return response.json();
+}
+
+async function saveCurrentReport() {
   const result = buildPacket();
   const item = {
     title: result.url || "Untitled opportunity",
     score: result.scoreValue,
     packet: result.text,
-    createdAt: new Date().toISOString()
+    createdAt: new Date().toISOString(),
+    backend: "local"
   };
+
+  try {
+    const cloudResult = await saveReportToCloud(result);
+    if (cloudResult.ok && cloudResult.stored) {
+      writeSavedReports([{ ...item, backend: "dynamodb", reportId: cloudResult.reportId }, ...readSavedReports()]);
+      saveStatus.textContent = `Saved to DynamoDB table ${cloudResult.table}.`;
+      renderSavedReports();
+      return;
+    }
+    saveStatus.textContent = "Saved locally. DynamoDB is not configured yet.";
+  } catch {
+    saveStatus.textContent = "Saved locally. Cloud write is unavailable in this preview.";
+  }
+
   writeSavedReports([item, ...readSavedReports()]);
   renderSavedReports();
 }

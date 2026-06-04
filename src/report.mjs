@@ -25,8 +25,8 @@ export function generateMarkdownReport() {
 
   lines.push("## User Actions Needed");
   lines.push("");
-  lines.push("- Register/log in to Devpost for H0, UiPath, and Splunk.");
-  lines.push("- Confirm Vercel/AWS access for H0.");
+  lines.push("- Register/log in to Devpost for UiPath, Splunk, and H0 draft pages.");
+  lines.push("- H0 final submit is blocked unless AWS promotional credits or an AWS account become available.");
   lines.push("- Confirm UiPath platform access for UiPath AgentHack.");
   lines.push("- Confirm Splunk account/trial access for Splunk.");
   lines.push("- Confirm Sui wallet/account only if Sui track is actively pursued.");
@@ -35,4 +35,3 @@ export function generateMarkdownReport() {
 
   return `${lines.join("\n")}\n`;
 }
-

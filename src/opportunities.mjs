@@ -9,9 +9,9 @@ export const opportunities = [
     autonomy: 8,
     collectability: 6,
     timeRisk: 4,
-    accountRisk: 5,
+    accountRisk: 9,
     competitionRisk: 6,
-    recommendation: "primary"
+    recommendation: "draft-only-until-aws"
   },
   {
     id: "uipath-agenthack",
@@ -66,6 +66,7 @@ export function scoreOpportunity(item) {
   if (item.themeFit >= 8) reasons.push("strong agent/product fit");
   if (item.autonomy >= 8) reasons.push("most demo assets can be prepared independently");
   if (item.accountRisk >= 7) reasons.push("requires user-owned platform/account steps");
+  if (item.id === "h0-zero-stack" && item.accountRisk >= 9) reasons.push("final H0 submission is blocked without AWS account or credits");
   if (item.timeRisk >= 7) reasons.push("short deadline");
   if (item.collectability <= 5) reasons.push("contest judging reduces payout certainty");
 

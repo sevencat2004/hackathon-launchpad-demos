@@ -3,6 +3,8 @@
 Status: active, not submitted, not paid.
 Price: mixed; H0 80,000 USD cash, UiPath 50,000 USD cash, Sui Overflow 500,000+ USD total prize pool / track-dependent, Splunk 20,000 USD total cash and feedback awards.
 
+2026-06-04 update: 用户确认当前没有 AWS 账号。H0 只能先保留草稿，不能最终提交；当前更优先推进 UiPath 和 Splunk 的 Devpost 草稿。
+
 ## 现在最需要你做的
 
 1. Devpost

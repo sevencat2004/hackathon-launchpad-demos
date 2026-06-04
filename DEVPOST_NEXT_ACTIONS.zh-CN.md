@@ -3,6 +3,8 @@
 Status: ready for draft project creation, not finally submitted, not approved, not paid.
 Price: H0 80,000 USD cash; UiPath AgentHack 50,000 USD cash; Splunk Agentic Ops Challenge 20,000 USD total cash and feedback awards; Sui Overflow 500,000+ USD total prize pool / track-dependent.
 
+2026-06-04 update: 用户确认当前没有 AWS 账号。H0 只能先建草稿，不能最终提交；Devpost 草稿优先级调整为 UiPath 第一、Splunk 第二、H0 草稿第三。H0 最终提交必须等 AWS promotional credits 或可用 AWS 账号路径。
+
 这个文件给用户在 Devpost 页面创建项目草稿时使用。不要直接最终提交。每个项目创建到提交前检查页后，先截图给项目负责人复核。
 
 ## 通用链接
@@ -30,7 +32,7 @@ Price: H0 80,000 USD cash; UiPath AgentHack 50,000 USD cash; Splunk Agentic Ops 
 - Demo link: `https://hackathon-launchpad-demos.vercel.app/h0/`
 - Source code link: `https://github.com/sevencat2004/hackathon-launchpad-demos`
 - Built with: `HTML`, `CSS`, `JavaScript`, `Node.js`
-- Status: MVP draft, public demo deployed, not submitted, not paid. H0 final submission still needs AWS database evidence.
+- Status: MVP draft, public demo deployed, not submitted, not paid. H0 final submission is blocked because the user currently has no AWS account and still needs AWS database evidence.
 
 ### H0 重要阻断点
 

@@ -15,7 +15,28 @@ bounty, or grant opportunity is worth pursuing.
 - packet generation
 - copy action
 - local saved reports
+- optional DynamoDB-backed saved reports through `/api/h0-reports`
 - Markdown packet download
+
+## AWS-backed Save Path
+
+The H0 final submission needs an AWS database primary backend. This project now includes
+a Vercel Serverless Function at `api/h0-reports.js` that writes saved reports to DynamoDB
+when the required environment variables are present.
+
+Required Vercel Environment Variables:
+
+- `AWS_REGION`
+- `AWS_ACCESS_KEY_ID`
+- `AWS_SECRET_ACCESS_KEY`
+- `H0_REPORTS_TABLE`
+
+Optional:
+
+- `AWS_SESSION_TOKEN`
+
+The browser never receives AWS credentials. If the API is not configured yet, the app keeps
+using local draft storage and shows a clear status message.
 
 ## Run
 
@@ -33,5 +54,4 @@ From `D:\coin\hackathon-launchpad`:
 npm.cmd run build:h0
 ```
 
-The deployable static bundle is written to `D:\coin\hackathon-launchpad\dist\h0`.
-
+The deployable bundle is written to `D:\coin\hackathon-launchpad\dist\h0`.

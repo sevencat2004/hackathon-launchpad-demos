@@ -216,6 +216,13 @@ button:hover {
   margin-bottom: 10px;
 }
 
+.save-status {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;

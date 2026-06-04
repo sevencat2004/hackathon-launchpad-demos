@@ -5,15 +5,6 @@ Price: mixed; see each project entry.
 
 ## Ranked Tracks
 
-### H0: Hack the Zero Stack
-
-- Platform: Devpost
-- Price: 80,000 USD cash prize pool
-- Deadline: 2026-06-29 20:30 PDT
-- Score: 74/100
-- Recommendation: primary
-- Reasons: strong agent/product fit; most demo assets can be prepared independently
-
 ### UiPath AgentHack
 
 - Platform: Devpost / UiPath
@@ -22,6 +13,15 @@ Price: mixed; see each project entry.
 - Score: 69/100
 - Recommendation: primary-after-access
 - Reasons: strong agent/product fit; requires user-owned platform/account steps
+
+### H0: Hack the Zero Stack
+
+- Platform: Devpost
+- Price: 80,000 USD cash prize pool
+- Deadline: 2026-06-29 20:30 PDT
+- Score: 68/100
+- Recommendation: draft-only-until-aws
+- Reasons: strong agent/product fit; most demo assets can be prepared independently; requires user-owned platform/account steps; final H0 submission is blocked without AWS account or credits
 
 ### Splunk Agentic Ops Challenge
 
@@ -43,8 +43,8 @@ Price: mixed; see each project entry.
 
 ## User Actions Needed
 
-- Register/log in to Devpost for H0, UiPath, and Splunk.
-- Confirm Vercel/AWS access for H0.
+- Register/log in to Devpost for UiPath, Splunk, and H0 draft pages.
+- H0 final submit is blocked unless AWS promotional credits or an AWS account become available.
 - Confirm UiPath platform access for UiPath AgentHack.
 - Confirm Splunk account/trial access for Splunk.
 - Confirm Sui wallet/account only if Sui track is actively pursued.

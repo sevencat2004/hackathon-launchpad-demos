@@ -3,6 +3,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const outDir = path.join(root, "dist", "vercel-site");
+const h0ApiSource = path.join(root, "projects", "h0-zero-stack", "api");
 const demos = [
   {
     slug: "h0",
@@ -44,6 +45,9 @@ mkdirSync(outDir, { recursive: true });
 for (const demo of demos) {
   cpSync(demo.source, path.join(outDir, demo.slug), { recursive: true });
 }
+rmSync(path.join(outDir, "h0", "api"), { recursive: true, force: true });
+rmSync(path.join(outDir, "h0", "package.json"), { force: true });
+cpSync(h0ApiSource, path.join(outDir, "api"), { recursive: true });
 
 writeFileSync(
   path.join(outDir, "index.html"),
@@ -227,6 +231,18 @@ a {
   }
 }
 `,
+  "utf8"
+);
+
+writeFileSync(
+  path.join(outDir, "package.json"),
+  JSON.stringify(
+    {
+      type: "commonjs"
+    },
+    null,
+    2
+  ),
   "utf8"
 );
 
