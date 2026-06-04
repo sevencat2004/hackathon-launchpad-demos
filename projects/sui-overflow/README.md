@@ -43,3 +43,9 @@ npm.cmd run build:sui
 ```
 
 The deployable static bundle is written to `D:\coin\hackathon-launchpad\dist\sui`.
+
+## Submission Materials
+
+- English packet: `D:\coin\hackathon-launchpad\docs\sui-grantflow-agent-submission-packet.md`
+- Chinese checklist: `D:\coin\hackathon-launchpad\projects\sui-overflow\USER_SUBMISSION_CHECKLIST.zh-CN.md`
+- Demo video: `D:\coin\hackathon-launchpad\outputs\sui-grantflow-agent-demo.mp4`

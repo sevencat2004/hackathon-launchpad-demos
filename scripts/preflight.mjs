@@ -42,6 +42,7 @@ check(existsSync(path.join(root, "VIDEO_STORYBOARDS.md")), "root video storyboar
 check(existsSync(path.join(root, "VERCEL_DEPLOYMENT_PACKET.zh-CN.md")), "root Vercel deployment packet exists");
 check(existsSync(path.join(root, "docs", "uipath-claimdesk-agent-deck.md")), "UiPath presentation deck exists");
 check(existsSync(path.join(root, "docs", "splunk-runbook-relay-agent-deck.md")), "Splunk presentation deck exists");
+check(existsSync(path.join(root, "docs", "sui-grantflow-agent-submission-packet.md")), "Sui submission packet exists");
 check(existsSync(path.join(root, "outputs", "uipath-claimdesk-agent-demo.mp4")), "UiPath demo video exists");
 check(existsSync(path.join(root, "outputs", "splunk-runbook-relay-agent-demo.mp4")), "Splunk demo video exists");
 check(existsSync(path.join(root, "outputs", "h0-zero-stack-bountyops-demo.mp4")), "H0 demo video exists");
@@ -106,6 +107,7 @@ for (const file of ["README.md", "DEPLOYMENT.md"]) {
   check(existsSync(filePath), `sui-overflow/${file} exists`);
 }
 check(existsSync(path.join(root, "projects", "sui-overflow", "TRACK_DECISION.md")), "sui-overflow/TRACK_DECISION.md exists");
+check(existsSync(path.join(root, "projects", "sui-overflow", "USER_SUBMISSION_CHECKLIST.zh-CN.md")), "sui-overflow/USER_SUBMISSION_CHECKLIST.zh-CN.md exists");
 
 for (const file of ["h0.png", "splunk.png", "uipath.png", "sui.png"]) {
   const filePath = path.join(root, "outputs", "screenshots", file);
