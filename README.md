@@ -24,12 +24,14 @@ Each track has a separate project folder under `projects/`. First-stage completi
 - user-owned account/payment steps separated
 - local preflight passes
 
-## Current Ranking
+## Current Operating State
 
-1. `h0-zero-stack` - first build target.
-2. `uipath-agenthack` - automation-focused build target.
-3. `splunk-agentic-ops` - narrow quick-build target due to short deadline.
-4. `sui-overflow` - medium-term ecosystem target.
+1. `uipath-agenthack` - submitted to UiPath AgentHack, awaiting review.
+2. `splunk-agentic-ops` - submitted to Splunk Agentic Ops Hackathon, awaiting review.
+3. `sui-overflow` - built and packet-ready; next feasible submission after user uploads the Sui video and provides only a public Sui address if asked.
+4. `h0-zero-stack` - draft-ready only; final submission is blocked until a safe AWS account or credits path exists and real AWS database evidence is added.
+
+Current payment state: no project is approved or paid yet.
 
 ## User-Owned Actions
 

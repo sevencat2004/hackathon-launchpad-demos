@@ -61,6 +61,7 @@ Evidence:
 - Public repo: `https://github.com/sevencat2004/hackathon-launchpad-demos`.
 - English submission packet: `docs/sui-grantflow-agent-submission-packet.md`.
 - Chinese user checklist: `projects/sui-overflow/USER_SUBMISSION_CHECKLIST.zh-CN.md`.
+- Final field review packet: `projects/sui-overflow/FINAL_FIELD_REVIEW.zh-CN.md`.
 - Local video: `D:\coin\hackathon-launchpad\outputs\sui-grantflow-agent-demo.mp4`.
 - CLI proof: `npm.cmd run intent 0x1111111111111111111111111111111111111111111111111111111111111111`.
 
@@ -75,6 +76,7 @@ Remaining user-owned actions:
 
 - Upload local MP4 to YouTube if official submission asks for a video URL.
 - Provide only a public Sui address if the official form asks for a wallet.
+- Stop on the final review/submit screen and send screenshots for field-by-field review.
 - Complete official account, identity, tax, KYC, and payment steps.
 
 Do not claim:

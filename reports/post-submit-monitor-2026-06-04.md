@@ -16,9 +16,9 @@ Live GitHub API check:
 ```text
 visibility: public
 default_branch: main
-latest remote commit: f3589916d545be6ba076b8090514f6461c56c385
-latest commit message: Add Sui upload submission guide
-pushed_at: 2026-06-04T15:24:02Z
+latest remote commit: b045811b30744ea4334244960600daccac6c700a
+latest commit message: Add post-submit monitor report
+checked by git ls-remote on 2026-06-04
 ```
 
 ## Local video assets
@@ -89,12 +89,13 @@ Ready assets:
 - Chinese checklist: `projects\sui-overflow\USER_SUBMISSION_CHECKLIST.zh-CN.md`
 - Wallet handoff: `projects\sui-overflow\SUI_WALLET_HANDOFF.zh-CN.md`
 - YouTube/submission guide: `projects\sui-overflow\YOUTUBE_UPLOAD_AND_SUBMISSION.zh-CN.md`
+- Final field review packet: `projects\sui-overflow\FINAL_FIELD_REVIEW.zh-CN.md`
 
 Next user action if proceeding:
 
 - Upload Sui MP4 to YouTube.
 - Provide only a public Sui address if official submission asks for wallet.
-- Send screenshots before final submit.
+- Send screenshots on the review/final-submit page before final submit.
 
 ### H0 - Zero Stack BountyOps
 

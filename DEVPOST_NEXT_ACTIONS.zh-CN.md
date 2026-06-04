@@ -16,14 +16,14 @@ Price: H0 80,000 USD cash; UiPath AgentHack 50,000 USD cash; Splunk Agentic Ops 
 - Splunk demo: `https://hackathon-launchpad-demos.vercel.app/splunk/`
 - Sui demo: `https://hackathon-launchpad-demos.vercel.app/sui/`
 
-## 先做顺序
+## 当前 Devpost 状态
 
-1. H0: Hack the Zero Stack
-2. UiPath AgentHack
-3. Splunk Agentic Ops Challenge
-4. Sui Overflow 后置，不走这一轮 Devpost 三连填表节奏
+1. UiPath: 已提交，等评审，不要重复提交。
+2. Splunk: 已提交，等评审，不要重复提交。
+3. H0: 只能保留草稿，最终提交等 AWS 账号/credits 和真实 AWS 数据库证据。
+4. Sui: 不走 Devpost 三连填表节奏，后续按官方 Sui Overflow 提交页单独处理。
 
-原因：H0 分数最高，UiPath 第二，Splunk 截止时间更近但 demo 较窄。Sui 需要先决定 track 和是否补 Sui SDK / Move 内容。
+当前不要再按旧优先级新建 UiPath 或 Splunk 草稿；两者已经提交成功。H0 不要最终提交。Sui 的下一步是先上传本地视频到 YouTube。
 
 ## H0 填表包
 
@@ -66,7 +66,7 @@ The current build is intentionally practical: a browser dashboard, adjustable co
 - Demo link: `https://hackathon-launchpad-demos.vercel.app/uipath/`
 - Source code link: `https://github.com/sevencat2004/hackathon-launchpad-demos`
 - Built with: `HTML`, `CSS`, `JavaScript`, `JSON`, `Node.js`
-- Status: MVP draft, public demo deployed, not submitted, not paid.
+- Status: submitted to UiPath AgentHack, not approved, not paid.
 
 ### UiPath short description
 
@@ -92,7 +92,7 @@ The current version uses a static dashboard and a small JSON inbox so reviewers 
 - Demo link: `https://hackathon-launchpad-demos.vercel.app/splunk/`
 - Source code link: `https://github.com/sevencat2004/hackathon-launchpad-demos`
 - Built with: `HTML`, `CSS`, `JavaScript`, `Synthetic logs`, `Node.js`
-- Status: MVP draft, public demo deployed, not submitted, not paid.
+- Status: submitted to Splunk Agentic Ops Hackathon, not approved, not paid.
 
 ### Splunk short description
 

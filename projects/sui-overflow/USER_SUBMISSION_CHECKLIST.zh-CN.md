@@ -73,6 +73,12 @@ D:\coin\hackathon-launchpad\projects\sui-overflow\SUI_WALLET_HANDOFF.zh-CN.md
 D:\coin\hackathon-launchpad\projects\sui-overflow\YOUTUBE_UPLOAD_AND_SUBMISSION.zh-CN.md
 ```
 
+最终字段复查包：
+
+```text
+D:\coin\hackathon-launchpad\projects\sui-overflow\FINAL_FIELD_REVIEW.zh-CN.md
+```
+
 ## 表单字段建议
 
 一句话简介：
@@ -115,3 +121,4 @@ I designed and built the prototype end to end: the browser demo, milestone model
 - 表单里只选 `Agentic Web` 一个主赛道。
 - 钱包只填 public address。
 - 不承诺已经 mainnet 部署，除非后面真的补了主网部署证据。
+- 最终 `Review` / `Submit` / `Finalize` 页面先截图给项目负责人复核。
