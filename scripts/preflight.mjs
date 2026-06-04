@@ -34,9 +34,11 @@ check(existsSync(path.join(root, "README.md")), "root README exists");
 check(existsSync(path.join(root, "USER_NEXT_STEPS.zh-CN.md")), "root Chinese user next steps exists");
 check(existsSync(path.join(root, "DEVPOST_COPY_PACKETS.md")), "root Devpost copy packets exists");
 check(existsSync(path.join(root, "DEVPOST_NEXT_ACTIONS.zh-CN.md")), "root Devpost next actions exists");
+check(existsSync(path.join(root, "FINAL_SUBMISSION_REVIEW.zh-CN.md")), "root final submission review exists");
 check(existsSync(path.join(root, "SUBMISSION_FIELD_PACKETS.md")), "root submission field packets exists");
 check(existsSync(path.join(root, "VIDEO_STORYBOARDS.md")), "root video storyboards exists");
 check(existsSync(path.join(root, "VERCEL_DEPLOYMENT_PACKET.zh-CN.md")), "root Vercel deployment packet exists");
+check(existsSync(path.join(root, "scripts", "prepare-devpost-assets.mjs")), "Devpost asset script exists");
 
 for (const project of projects) {
   const dir = path.join(root, "projects", project);
@@ -96,6 +98,18 @@ for (const file of ["README.md", "DEPLOYMENT.md"]) {
 for (const file of ["h0.png", "splunk.png", "uipath.png", "sui.png"]) {
   const filePath = path.join(root, "outputs", "screenshots", file);
   check(existsSync(filePath), `outputs/screenshots/${file} exists`);
+}
+
+for (const file of [
+  "01-h0-zero-stack-bountyops.png",
+  "02-uipath-claimdesk-agent.png",
+  "03-splunk-runbook-relay-agent.png",
+  "04-sui-grantflow-agent.png",
+  "README.md",
+  "manifest.json"
+]) {
+  const filePath = path.join(root, "outputs", "devpost-upload-assets", file);
+  check(existsSync(filePath), `outputs/devpost-upload-assets/${file} exists`);
 }
 
 if (failed) {

@@ -10,6 +10,7 @@
     "build:uipath": "node scripts/build-uipath.mjs",
     "build:vercel-site": "node scripts/build-vercel-site.mjs",
     "screenshots": "node scripts/capture-screenshots.mjs",
+    "assets:devpost": "node scripts/prepare-devpost-assets.mjs",
     "report": "node scripts/generate-report.mjs",
     "serve:h0": "node scripts/serve-h0.mjs",
     "serve:splunk": "node scripts/serve-splunk.mjs",
