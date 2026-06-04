@@ -61,6 +61,12 @@ D:\coin\hackathon-launchpad\outputs\devpost-upload-assets\04-sui-grantflow-agent
 D:\coin\hackathon-launchpad\docs\sui-grantflow-agent-submission-packet.md
 ```
 
+钱包交接清单：
+
+```text
+D:\coin\hackathon-launchpad\projects\sui-overflow\SUI_WALLET_HANDOFF.zh-CN.md
+```
+
 ## 表单字段建议
 
 一句话简介：

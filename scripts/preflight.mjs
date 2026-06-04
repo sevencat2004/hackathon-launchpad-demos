@@ -111,6 +111,7 @@ for (const file of ["README.md", "DEPLOYMENT.md"]) {
 }
 check(existsSync(path.join(root, "projects", "sui-overflow", "TRACK_DECISION.md")), "sui-overflow/TRACK_DECISION.md exists");
 check(existsSync(path.join(root, "projects", "sui-overflow", "USER_SUBMISSION_CHECKLIST.zh-CN.md")), "sui-overflow/USER_SUBMISSION_CHECKLIST.zh-CN.md exists");
+check(existsSync(path.join(root, "projects", "sui-overflow", "SUI_WALLET_HANDOFF.zh-CN.md")), "sui-overflow/SUI_WALLET_HANDOFF.zh-CN.md exists");
 
 for (const file of ["h0.png", "splunk.png", "uipath.png", "sui.png"]) {
   const filePath = path.join(root, "outputs", "screenshots", file);

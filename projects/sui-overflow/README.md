@@ -48,4 +48,5 @@ The deployable static bundle is written to `D:\coin\hackathon-launchpad\dist\sui
 
 - English packet: `D:\coin\hackathon-launchpad\docs\sui-grantflow-agent-submission-packet.md`
 - Chinese checklist: `D:\coin\hackathon-launchpad\projects\sui-overflow\USER_SUBMISSION_CHECKLIST.zh-CN.md`
+- Wallet handoff: `D:\coin\hackathon-launchpad\projects\sui-overflow\SUI_WALLET_HANDOFF.zh-CN.md`
 - Demo video: `D:\coin\hackathon-launchpad\outputs\sui-grantflow-agent-demo.mp4`
