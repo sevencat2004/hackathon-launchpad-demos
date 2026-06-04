@@ -31,6 +31,8 @@ function check(condition, message) {
 }
 
 check(existsSync(path.join(root, "README.md")), "root README exists");
+check(existsSync(path.join(root, "LICENSE")), "root license exists");
+check(existsSync(path.join(root, "architecture_diagram.md")), "root architecture diagram exists");
 check(existsSync(path.join(root, "USER_NEXT_STEPS.zh-CN.md")), "root Chinese user next steps exists");
 check(existsSync(path.join(root, "DEVPOST_COPY_PACKETS.md")), "root Devpost copy packets exists");
 check(existsSync(path.join(root, "DEVPOST_NEXT_ACTIONS.zh-CN.md")), "root Devpost next actions exists");
@@ -39,7 +41,10 @@ check(existsSync(path.join(root, "SUBMISSION_FIELD_PACKETS.md")), "root submissi
 check(existsSync(path.join(root, "VIDEO_STORYBOARDS.md")), "root video storyboards exists");
 check(existsSync(path.join(root, "VERCEL_DEPLOYMENT_PACKET.zh-CN.md")), "root Vercel deployment packet exists");
 check(existsSync(path.join(root, "docs", "uipath-claimdesk-agent-deck.md")), "UiPath presentation deck exists");
+check(existsSync(path.join(root, "docs", "splunk-runbook-relay-agent-deck.md")), "Splunk presentation deck exists");
 check(existsSync(path.join(root, "outputs", "uipath-claimdesk-agent-demo.mp4")), "UiPath demo video exists");
+check(existsSync(path.join(root, "outputs", "splunk-runbook-relay-agent-demo.mp4")), "Splunk demo video exists");
+check(existsSync(path.join(root, "outputs", "h0-zero-stack-bountyops-demo.mp4")), "H0 demo video exists");
 check(existsSync(path.join(root, "scripts", "prepare-devpost-assets.mjs")), "Devpost asset script exists");
 check(existsSync(path.join(root, "scripts", "prepare-video-recording-kit.mjs")), "video recording kit script exists");
 
