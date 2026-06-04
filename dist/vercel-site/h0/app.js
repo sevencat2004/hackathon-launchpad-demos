@@ -27,7 +27,7 @@ function calculateScore(values) {
 function buildReasons(values) {
   const list = [];
   if (values.themeFit >= 8) list.push("Strong hackathon-theme fit: agentic full-stack product work.");
-  if (values.autonomy >= 8) list.push("Codex can build most code, docs, demo script, and export assets.");
+  if (values.autonomy >= 8) list.push("The team can prepare most code, docs, demo script, and export assets without waiting on extra platform access.");
   if (values.collectability <= 6) list.push("Contest judging means payout is not guaranteed even with a complete build.");
   if (values.accountRisk >= 6) list.push("User-owned account steps remain: Devpost, Vercel, AWS, prize/KYC.");
   if (values.timeRisk >= 7) list.push("Deadline pressure is high; keep the MVP narrow.");

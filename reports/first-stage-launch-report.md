@@ -12,7 +12,7 @@ Price: mixed; see each project entry.
 - Deadline: 2026-06-29 20:30 PDT
 - Score: 74/100
 - Recommendation: primary
-- Reasons: strong agent/product fit; Codex can build most assets independently
+- Reasons: strong agent/product fit; most demo assets can be prepared independently
 
 ### UiPath AgentHack
 

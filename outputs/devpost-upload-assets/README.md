@@ -5,7 +5,7 @@ Price: mixed; H0 80,000 USD cash, UiPath 50,000 USD cash, Splunk 20,000 USD tota
 
 Generated directory: `D:\coin\hackathon-launchpad\outputs\devpost-upload-assets`
 
-Use these files when Devpost asks for project screenshots. Create draft pages first, then send screenshots to Codex before final submit.
+Use these files when Devpost asks for project screenshots. Create draft pages first, then send a review screenshot before final submit.
 
 ## Files
 
@@ -34,4 +34,4 @@ Use these files when Devpost asks for project screenshots. Create draft pages fi
 
 - Do not upload screenshots that show email, payment, token, API key, private key, seed phrase, tax, or bank data.
 - Do not mark any project as submitted, approved, won, or paid until Devpost or the organizer confirms it.
-- Stop before final submit and send Codex a screenshot of the review page.
+- Stop before final submit and send a screenshot of the review page.

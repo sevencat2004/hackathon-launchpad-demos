@@ -64,7 +64,7 @@ export function scoreOpportunity(item) {
 
   const reasons = [];
   if (item.themeFit >= 8) reasons.push("strong agent/product fit");
-  if (item.autonomy >= 8) reasons.push("Codex can build most assets independently");
+  if (item.autonomy >= 8) reasons.push("most demo assets can be prepared independently");
   if (item.accountRisk >= 7) reasons.push("requires user-owned platform/account steps");
   if (item.timeRisk >= 7) reasons.push("short deadline");
   if (item.collectability <= 5) reasons.push("contest judging reduces payout certainty");
