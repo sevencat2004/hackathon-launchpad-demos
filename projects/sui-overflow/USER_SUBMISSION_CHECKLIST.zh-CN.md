@@ -67,6 +67,12 @@ D:\coin\hackathon-launchpad\docs\sui-grantflow-agent-submission-packet.md
 D:\coin\hackathon-launchpad\projects\sui-overflow\SUI_WALLET_HANDOFF.zh-CN.md
 ```
 
+视频上传与提交指令：
+
+```text
+D:\coin\hackathon-launchpad\projects\sui-overflow\YOUTUBE_UPLOAD_AND_SUBMISSION.zh-CN.md
+```
+
 ## 表单字段建议
 
 一句话简介：
