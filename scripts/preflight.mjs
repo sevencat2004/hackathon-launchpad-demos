@@ -39,6 +39,7 @@ check(existsSync(path.join(root, "SUBMISSION_FIELD_PACKETS.md")), "root submissi
 check(existsSync(path.join(root, "VIDEO_STORYBOARDS.md")), "root video storyboards exists");
 check(existsSync(path.join(root, "VERCEL_DEPLOYMENT_PACKET.zh-CN.md")), "root Vercel deployment packet exists");
 check(existsSync(path.join(root, "scripts", "prepare-devpost-assets.mjs")), "Devpost asset script exists");
+check(existsSync(path.join(root, "scripts", "prepare-video-recording-kit.mjs")), "video recording kit script exists");
 
 for (const project of projects) {
   const dir = path.join(root, "projects", project);
@@ -110,6 +111,19 @@ for (const file of [
 ]) {
   const filePath = path.join(root, "outputs", "devpost-upload-assets", file);
   check(existsSync(filePath), `outputs/devpost-upload-assets/${file} exists`);
+}
+
+for (const file of [
+  "index.html",
+  "styles.css",
+  "README.md",
+  path.join("images", "h0-zero-stack-bountyops.png"),
+  path.join("images", "uipath-claimdesk-agent.png"),
+  path.join("images", "splunk-runbook-relay-agent.png"),
+  path.join("images", "sui-grantflow-agent.png")
+]) {
+  const filePath = path.join(root, "outputs", "video-recording-kit", file);
+  check(existsSync(filePath), `outputs/video-recording-kit/${file} exists`);
 }
 
 if (failed) {
