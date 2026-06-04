@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zero Stack BountyOps</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar" aria-label="Project overview">
+        <div>
+          <p class="kicker">H0 first-stage prototype</p>
+          <h1>Zero Stack BountyOps</h1>
+        </div>
+        <div class="status-strip" aria-label="Submission state">
+          <span>Not submitted</span>
+          <span>Not paid</span>
+          <span>Devpost ready path</span>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <aside class="panel controls" aria-label="Opportunity input">
+          <label for="opportunity-url">Opportunity URL</label>
+          <input id="opportunity-url" value="https://h01.devpost.com/" />
+
+          <label for="amount">Visible prize</label>
+          <input id="amount" value="80,000 USD cash prize pool" />
+
+          <label for="deadline">Deadline</label>
+          <input id="deadline" value="2026-06-29 20:30 PDT" />
+
+          <div class="factor-grid" aria-label="Scoring factors">
+            <label for="theme-fit">Theme fit <output id="theme-fit-output">9</output></label>
+            <input id="theme-fit" type="range" min="1" max="10" value="9" />
+
+            <label for="autonomy">Codex autonomy <output id="autonomy-output">8</output></label>
+            <input id="autonomy" type="range" min="1" max="10" value="8" />
+
+            <label for="collectability">Collectability <output id="collectability-output">6</output></label>
+            <input id="collectability" type="range" min="1" max="10" value="6" />
+
+            <label for="time-risk">Time risk <output id="time-risk-output">4</output></label>
+            <input id="time-risk" type="range" min="1" max="10" value="4" />
+
+            <label for="account-risk">Account risk <output id="account-risk-output">5</output></label>
+            <input id="account-risk" type="range" min="1" max="10" value="5" />
+          </div>
+
+          <button id="analyze" type="button">Analyze</button>
+        </aside>
+
+        <section class="panel score-panel" aria-label="Score result">
+          <div class="score-ring">
+            <span id="score">74</span>
+            <small>/100</small>
+          </div>
+          <div>
+            <p class="kicker">Recommendation</p>
+            <h2 id="recommendation">Primary build target</h2>
+            <p id="summary">
+              Strong agent/product fit with manageable account risk. Build the H0 MVP first,
+              then reuse the scoring and export flow for UiPath, Splunk, and Sui.
+            </p>
+          </div>
+        </section>
+
+        <section class="panel reasons" aria-label="Risk reasons">
+          <div class="section-heading">
+            <p class="kicker">Risk reasons</p>
+          </div>
+          <ul id="reasons"></ul>
+        </section>
+
+        <section class="panel output" aria-label="Generated packet">
+          <div class="section-heading">
+            <p class="kicker">Generated packet</p>
+            <div class="button-row">
+              <button id="save" type="button">Save</button>
+              <button id="download" type="button">Download</button>
+              <button id="copy" type="button">Copy</button>
+            </div>
+          </div>
+          <pre id="packet"></pre>
+        </section>
+      </section>
+
+      <section class="saved-band" aria-label="Saved reports">
+        <div class="section-heading">
+          <p class="kicker">Saved reports</p>
+          <button id="clear-saved" type="button">Clear</button>
+        </div>
+        <div id="saved-reports" class="saved-grid"></div>
+      </section>
+
+      <section class="tracks" aria-label="Parallel tracks">
+        <article>
+          <strong>H0</strong>
+          <span>Build first</span>
+        </article>
+        <article>
+          <strong>UiPath</strong>
+          <span>Confirm access</span>
+        </article>
+        <article>
+          <strong>Splunk</strong>
+          <span>Narrow demo</span>
+        </article>
+        <article>
+          <strong>Sui</strong>
+          <span>Medium-term</span>
+        </article>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+[
+  {
+    "timestamp": "2026-06-04T02:15:01Z",
+    "service": "checkout-api",
+    "level": "info",
+    "message": "request completed",
+    "latencyMs": 142,
+    "status": 200
+  },
+  {
+    "timestamp": "2026-06-04T02:16:18Z",
+    "service": "checkout-api",
+    "level": "warn",
+    "message": "payment provider retry",
+    "latencyMs": 1840,
+    "status": 202
+  },
+  {
+    "timestamp": "2026-06-04T02:16:42Z",
+    "service": "checkout-api",
+    "level": "error",
+    "message": "payment provider timeout",
+    "latencyMs": 5000,
+    "status": 504
+  },
+  {
+    "timestamp": "2026-06-04T02:17:03Z",
+    "service": "checkout-api",
+    "level": "error",
+    "message": "circuit breaker opened for payment provider",
+    "latencyMs": 4900,
+    "status": 503
+  }
+]
+

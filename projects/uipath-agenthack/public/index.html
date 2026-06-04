@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ClaimDesk Agent</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="header">
+        <div>
+          <p class="kicker">UiPath AgentHack MVP</p>
+          <h1>ClaimDesk Agent</h1>
+        </div>
+        <div class="status-box">
+          <strong>50,000 USD</strong>
+          <span>cash prize pool</span>
+        </div>
+      </section>
+
+      <section class="workflow" aria-label="Automation stages">
+        <article>
+          <strong>1</strong>
+          <span>Receive opportunity</span>
+        </article>
+        <article>
+          <strong>2</strong>
+          <span>Classify risk</span>
+        </article>
+        <article>
+          <strong>3</strong>
+          <span>Route queue</span>
+        </article>
+        <article>
+          <strong>4</strong>
+          <span>Human approval</span>
+        </article>
+      </section>
+
+      <section class="grid">
+        <section class="panel" aria-label="Opportunity inbox">
+          <div class="section-heading">
+            <p class="kicker">Inbox</p>
+            <button id="route" type="button">Route</button>
+          </div>
+          <div id="inbox" class="stack"></div>
+        </section>
+
+        <section class="panel" aria-label="Ranked queue">
+          <p class="kicker">Ranked queue</p>
+          <div id="queue" class="stack"></div>
+        </section>
+
+        <section class="panel approval" aria-label="Human approval gates">
+          <p class="kicker">Human approval gates</p>
+          <ul>
+            <li>Devpost project creation</li>
+            <li>UiPath account login</li>
+            <li>Final submission</li>
+            <li>Tax, KYC, prize, and payment onboarding</li>
+          </ul>
+        </section>
+      </section>
+
+      <section class="panel packet-panel" aria-label="Generated packet">
+        <div class="section-heading">
+          <p class="kicker">Generated automation packet</p>
+          <button id="copy" type="button">Copy</button>
+        </div>
+        <pre id="packet"></pre>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
+

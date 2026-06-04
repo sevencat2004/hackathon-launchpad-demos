@@ -1,0 +1,21 @@
+[
+  {
+    "source": "Devpost",
+    "title": "H0: Hack the Zero Stack",
+    "amount": "80,000 USD cash prize pool",
+    "action": "route to build queue"
+  },
+  {
+    "source": "Devpost",
+    "title": "UiPath AgentHack",
+    "amount": "50,000 USD cash prize pool",
+    "action": "wait for UiPath access confirmation"
+  },
+  {
+    "source": "Devpost",
+    "title": "Splunk Agentic Ops Challenge",
+    "amount": "20,000 USD total cash and feedback awards",
+    "action": "build narrow synthetic-log demo"
+  }
+]
+

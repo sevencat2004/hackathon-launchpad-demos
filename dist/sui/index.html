@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sui GrantFlow Agent</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="header">
+        <div>
+          <p class="kicker">Sui Overflow 2026 MVP</p>
+          <h1>Sui GrantFlow Agent</h1>
+        </div>
+        <div class="status-box">
+          <strong>500,000+ USD</strong>
+          <span>track-dependent prize pool</span>
+        </div>
+      </section>
+
+      <section class="safety-strip" aria-label="Wallet safety">
+        <article>
+          <strong>Public address only</strong>
+          <span>No private key, seed phrase, or recovery phrase is requested.</span>
+        </article>
+        <article>
+          <strong>Submission pending</strong>
+          <span>Not submitted, not approved, not paid.</span>
+        </article>
+        <article>
+          <strong>Track choice pending</strong>
+          <span>Sui SDK vs Move package remains an implementation decision.</span>
+        </article>
+      </section>
+
+      <section class="grid">
+        <section class="panel" aria-label="Milestones">
+          <div class="section-heading">
+            <p class="kicker">Milestones</p>
+            <button id="generate" type="button">Generate</button>
+          </div>
+          <div id="milestones" class="milestone-list"></div>
+        </section>
+
+        <section class="panel" aria-label="Payment handoff">
+          <p class="kicker">Wallet-safe handoff</p>
+          <div class="handoff">
+            <label for="public-address">Public Sui address</label>
+            <input id="public-address" value="0xPUBLIC_ADDRESS_ONLY" />
+            <p id="safety-note"></p>
+          </div>
+        </section>
+
+        <section class="panel" aria-label="Reviewer packet">
+          <div class="section-heading">
+            <p class="kicker">Reviewer packet</p>
+            <button id="copy" type="button">Copy</button>
+          </div>
+          <pre id="packet"></pre>
+        </section>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
+

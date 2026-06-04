@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Runbook Relay Agent</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="header">
+        <div>
+          <p class="kicker">Splunk Agentic Ops Challenge MVP</p>
+          <h1>Runbook Relay Agent</h1>
+        </div>
+        <div class="prize">
+          <strong>20,000 USD</strong>
+          <span>cash and feedback awards</span>
+        </div>
+      </section>
+
+      <section class="summary-row" aria-label="Incident summary">
+        <article>
+          <span>Severity</span>
+          <strong id="severity">high</strong>
+        </article>
+        <article>
+          <span>Service</span>
+          <strong id="service">checkout-api</strong>
+        </article>
+        <article>
+          <span>Max latency</span>
+          <strong id="latency">5000 ms</strong>
+        </article>
+        <article>
+          <span>Status</span>
+          <strong>not submitted</strong>
+        </article>
+      </section>
+
+      <section class="grid">
+        <section class="panel logs" aria-label="Synthetic logs">
+          <div class="section-heading">
+            <p class="kicker">Synthetic logs</p>
+            <button id="analyze" type="button">Analyze</button>
+          </div>
+          <div id="logs"></div>
+        </section>
+
+        <section class="panel" aria-label="Agent explanation">
+          <p class="kicker">Agent explanation</p>
+          <h2 id="cause">Payment provider timeout</h2>
+          <div class="signals" id="signals"></div>
+        </section>
+
+        <section class="panel" aria-label="Runbook">
+          <div class="section-heading">
+            <p class="kicker">Runbook</p>
+            <button id="copy" type="button">Copy</button>
+          </div>
+          <ol id="runbook"></ol>
+        </section>
+      </section>
+
+      <section class="panel postmortem" aria-label="Postmortem draft">
+        <p class="kicker">Postmortem draft</p>
+        <pre id="postmortem"></pre>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
+
