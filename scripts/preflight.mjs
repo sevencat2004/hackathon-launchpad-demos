@@ -33,6 +33,9 @@ function check(condition, message) {
 check(existsSync(path.join(root, "README.md")), "root README exists");
 check(existsSync(path.join(root, "USER_NEXT_STEPS.zh-CN.md")), "root Chinese user next steps exists");
 check(existsSync(path.join(root, "DEVPOST_COPY_PACKETS.md")), "root Devpost copy packets exists");
+check(existsSync(path.join(root, "SUBMISSION_FIELD_PACKETS.md")), "root submission field packets exists");
+check(existsSync(path.join(root, "VIDEO_STORYBOARDS.md")), "root video storyboards exists");
+check(existsSync(path.join(root, "VERCEL_DEPLOYMENT_PACKET.zh-CN.md")), "root Vercel deployment packet exists");
 
 for (const project of projects) {
   const dir = path.join(root, "projects", project);
