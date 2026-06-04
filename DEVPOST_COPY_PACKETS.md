@@ -3,7 +3,7 @@
 Status: draft assets, not submitted, not paid.
 Price: mixed; H0 80,000 USD cash, UiPath 50,000 USD cash, Sui Overflow 500,000+ USD total prize pool / track-dependent, Splunk 20,000 USD total cash and feedback awards.
 
-Use `{PUBLIC_SITE_URL}` after Vercel deploys. Replace screenshots and video links only after the public site has been checked.
+Public demo hub: `https://hackathon-launchpad-demos.vercel.app`
 
 ## H0: Zero Stack BountyOps
 

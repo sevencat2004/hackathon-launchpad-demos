@@ -8,7 +8,7 @@ These scripts are written for 30 to 45 second screen recordings. Use the deploye
 ## H0: Zero Stack BountyOps
 
 - Target length: 40 seconds
-- Demo path: `{PUBLIC_SITE_URL}/h0/`
+- Demo path: `https://hackathon-launchpad-demos.vercel.app/h0/`
 - Recording asset: `outputs/screenshots/h0.png`
 
 ### Voiceover
@@ -27,7 +27,7 @@ Here we enter an opportunity, adjust the practical factors, and watch the recomm
 ## UiPath AgentHack: ClaimDesk Agent
 
 - Target length: 35 seconds
-- Demo path: `{PUBLIC_SITE_URL}/uipath/`
+- Demo path: `https://hackathon-launchpad-demos.vercel.app/uipath/`
 - Recording asset: `outputs/screenshots/uipath.png`
 
 ### Voiceover
@@ -46,7 +46,7 @@ The important part is the approval gate. Automation can prepare the packet, but 
 ## Splunk Agentic Ops Challenge: Runbook Relay Agent
 
 - Target length: 35 seconds
-- Demo path: `{PUBLIC_SITE_URL}/splunk/`
+- Demo path: `https://hackathon-launchpad-demos.vercel.app/splunk/`
 - Recording asset: `outputs/screenshots/splunk.png`
 
 ### Voiceover
@@ -65,7 +65,7 @@ The result is a short incident summary, a runbook the responder can act on, and 
 ## Sui Overflow: Sui GrantFlow Agent
 
 - Target length: 35 seconds
-- Demo path: `{PUBLIC_SITE_URL}/sui/`
+- Demo path: `https://hackathon-launchpad-demos.vercel.app/sui/`
 - Recording asset: `outputs/screenshots/sui.png`
 
 ### Voiceover

@@ -3,22 +3,22 @@
 Status: draft assets, not submitted, not paid.
 Price: mixed; H0 80,000 USD cash, UiPath 50,000 USD cash, Sui Overflow 500,000+ USD total prize pool / track-dependent, Splunk 20,000 USD total cash and feedback awards.
 
-Use `{PUBLIC_SITE_URL}` after Vercel deploys the static hub.
+Public site URL: `https://hackathon-launchpad-demos.vercel.app`
 
 ## Shared links
 
-- Public demo hub: `{PUBLIC_SITE_URL}`
+- Public demo hub: `https://hackathon-launchpad-demos.vercel.app`
 - GitHub repo: `https://github.com/sevencat2004/hackathon-launchpad-demos`
-- H0 demo: `{PUBLIC_SITE_URL}/h0/`
-- UiPath demo: `{PUBLIC_SITE_URL}/uipath/`
-- Splunk demo: `{PUBLIC_SITE_URL}/splunk/`
-- Sui demo: `{PUBLIC_SITE_URL}/sui/`
+- H0 demo: `https://hackathon-launchpad-demos.vercel.app/h0/`
+- UiPath demo: `https://hackathon-launchpad-demos.vercel.app/uipath/`
+- Splunk demo: `https://hackathon-launchpad-demos.vercel.app/splunk/`
+- Sui demo: `https://hackathon-launchpad-demos.vercel.app/sui/`
 
 ## H0: Zero Stack BountyOps
 
 - Project name: `Zero Stack BountyOps`
 - Tagline: `A planning desk for deciding which hackathons, bounties, and grants are actually worth building.`
-- Demo URL: `{PUBLIC_SITE_URL}/h0/`
+- Demo URL: `https://hackathon-launchpad-demos.vercel.app/h0/`
 - Source code: `https://github.com/sevencat2004/hackathon-launchpad-demos`
 - Built with: `HTML, CSS, JavaScript, Node.js static build scripts`
 
@@ -42,7 +42,7 @@ Open the H0 demo, change at least two risk sliders, point out the recommendation
 
 - Project name: `ClaimDesk Agent`
 - Tagline: `A human approval queue for messy opportunity inboxes.`
-- Demo URL: `{PUBLIC_SITE_URL}/uipath/`
+- Demo URL: `https://hackathon-launchpad-demos.vercel.app/uipath/`
 - Source code: `https://github.com/sevencat2004/hackathon-launchpad-demos`
 - Built with: `HTML, CSS, JavaScript, JSON fixture, Node.js static build scripts`
 
@@ -66,7 +66,7 @@ Open the UiPath demo, move through the inbox, show the ranked queue, call out th
 
 - Project name: `Runbook Relay Agent`
 - Tagline: `From noisy checkout logs to a runbook an operator can use.`
-- Demo URL: `{PUBLIC_SITE_URL}/splunk/`
+- Demo URL: `https://hackathon-launchpad-demos.vercel.app/splunk/`
 - Source code: `https://github.com/sevencat2004/hackathon-launchpad-demos`
 - Built with: `HTML, CSS, JavaScript, synthetic log fixture, Node.js analysis script`
 
@@ -90,7 +90,7 @@ Open the Splunk demo, show the log stream, point to the signal counters, then sh
 
 - Project name: `Sui GrantFlow Agent`
 - Tagline: `A safer handoff plan for Sui milestones, reviews, and public wallet details.`
-- Demo URL: `{PUBLIC_SITE_URL}/sui/`
+- Demo URL: `https://hackathon-launchpad-demos.vercel.app/sui/`
 - Source code: `https://github.com/sevencat2004/hackathon-launchpad-demos`
 - Built with: `HTML, CSS, JavaScript, Node.js milestone model`
 
