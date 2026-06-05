@@ -80,7 +80,7 @@ function renderAnalysis() {
     .join("");
   document.querySelector("#runbook").innerHTML = runbook.map((item) => `<li>${item}</li>`).join("");
   document.querySelector("#postmortem").textContent = [
-    "Status: MVP draft, not submitted, not paid.",
+    "Status: submitted to Splunk Agentic Ops Hackathon, not approved, not paid.",
     "Price: 20,000 USD total cash and feedback awards.",
     "",
     incident.postmortem
@@ -95,4 +95,3 @@ document.querySelector("#copy").addEventListener("click", async () => {
 
 renderLogs();
 renderAnalysis();
-

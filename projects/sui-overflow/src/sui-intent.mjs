@@ -12,7 +12,7 @@ export function buildSuiPaymentIntent({
   const normalizedRecipient = validRecipient ? normalizeSuiAddress(recipient) : null;
 
   return {
-    status: "dry-run intent, not signed, not submitted, not paid",
+    status: "dry-run intent, not signed, project page created, not approved, not paid",
     network: "Sui testnet-ready model",
     asset: "SUI",
     amountMist,

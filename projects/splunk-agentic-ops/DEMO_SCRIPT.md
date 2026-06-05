@@ -1,6 +1,6 @@
 # Splunk Demo Script
 
-Status: MVP draft, not submitted, not paid.
+Status: submitted to Splunk Agentic Ops Hackathon, not approved, not paid.
 Price: 20,000 USD total cash and feedback awards.
 
 ## Video Length
@@ -22,4 +22,3 @@ Target: 90 seconds.
 Runbook Relay Agent turns raw service events into an incident handoff. In this demo,
 payment provider timeouts trigger retries and circuit breaker activation. The agent
 summarizes severity, signals, probable cause, runbook steps, and a postmortem draft.
-

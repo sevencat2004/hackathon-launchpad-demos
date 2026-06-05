@@ -11,7 +11,7 @@ Checked: 2026-06-05 Asia/Shanghai.
 | --- | --- | --- | --- |
 | ClaimDesk Agent | Submitted to UiPath AgentHack | not approved, not paid | watch email |
 | Runbook Relay Agent | Submitted to Splunk Agentic Ops Hackathon | not approved, not paid | watch email |
-| Sui GrantFlow Agent | Built, upgraded, video ready, packet ready, not submitted | not approved, not paid | open official submission and provide public Sui address if asked |
+| Sui GrantFlow Agent | DeepSurge project page created and visible; official review/status still needs monitoring | not approved, not paid | watch DeepSurge/email for status or warnings; provide public Sui address only if officially requested |
 | Zero Stack BountyOps | Built as draft; final blocked by no AWS account | not approved, not paid | no action unless AWS account/credits become available |
 
 ## UiPath AgentHack - ClaimDesk Agent
@@ -131,5 +131,5 @@ npm.cmd run intent 0x11111111111111111111111111111111111111111111111111111111111
 ## Current operating decision
 
 1. UiPath and Splunk are submitted. Wait and monitor.
-2. Sui is now the next feasible submission; video is ready, and the remaining user-owned step is the official submission/account flow plus public wallet address if asked.
+2. Sui has a visible DeepSurge project page; monitor official status, warning banners, and email. Provide only a public Sui address if the official flow later asks for one.
 3. H0 stays draft-only until AWS is solved.

@@ -1,6 +1,6 @@
 # ClaimDesk Agent
 
-Status: UiPath AgentHack draft, not submitted, not approved, not paid.
+Status: submitted to UiPath AgentHack, not approved, not paid.
 Price: 50,000 USD cash prize pool.
 
 ## 1. Project summary

@@ -1,6 +1,6 @@
 # Devpost copy packets
 
-Status: draft assets, not submitted, not paid.
+Status: submission assets prepared; UiPath/Splunk submitted, Sui project page created, H0 draft-only; not approved, not paid.
 Price: mixed; H0 80,000 USD cash, UiPath 50,000 USD cash, Sui Overflow 500,000+ USD total prize pool / track-dependent, Splunk 20,000 USD total cash and feedback awards.
 
 Public demo hub: `https://hackathon-launchpad-demos.vercel.app`

@@ -1,6 +1,6 @@
 # Sui GrantFlow Agent Submission Packet
 
-Status: prepared draft with demo video link, not submitted, not approved, not paid.
+Status: DeepSurge project page created and visible, not approved, not paid.
 Price: Sui Overflow 2026 has 500,000+ USD in track prizes and 1,000,000+ USD in total prizes and seed funding; actual award is track-dependent.
 
 ## Official source snapshot

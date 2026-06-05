@@ -1,6 +1,6 @@
 # Submission Checklist
 
-Status: first-stage started, not submitted, not paid.
+Status: DeepSurge project page created and visible, not approved, not paid.
 Price: 500,000+ USD total prize pool shown by official Sui Overflow materials; actual award depends on track and judging.
 
 - [x] Confirm target Sui Overflow track.

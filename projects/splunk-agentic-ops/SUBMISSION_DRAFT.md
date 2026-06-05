@@ -1,6 +1,6 @@
 # Splunk Agentic Ops Submission Draft
 
-Status: MVP draft, not submitted, not paid.
+Status: submitted to Splunk Agentic Ops Hackathon, not approved, not paid.
 Price: 20,000 USD total cash and feedback awards.
 
 ## Project Name
@@ -39,4 +39,3 @@ connecting the same flow to Splunk data once account/trial access is available.
 
 Devpost submission, Splunk account/trial access, safe local token setup if live integration
 is used, tax/KYC/payment onboarding.
-

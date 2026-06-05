@@ -1,6 +1,6 @@
 # H0 Deployment Notes
 
-Status: MVP draft, not submitted, not paid.
+Status: credits requested; draft-only until AWS database evidence exists, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
 ## Local Preview

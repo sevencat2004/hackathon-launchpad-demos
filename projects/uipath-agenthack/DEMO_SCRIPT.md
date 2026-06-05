@@ -1,6 +1,6 @@
 # UiPath Demo Script
 
-Status: MVP draft, not submitted, not paid.
+Status: submitted to UiPath AgentHack, not approved, not paid.
 Price: 50,000 USD cash prize pool.
 
 ## Video Length
@@ -22,4 +22,3 @@ ClaimDesk Agent turns scattered opportunity messages into a controlled automatio
 It does not submit or touch payment information by itself. Instead, it prepares the facts,
 classifies risk, drafts the next action, and asks for human approval where accounts,
 submissions, or prize onboarding are involved.
-

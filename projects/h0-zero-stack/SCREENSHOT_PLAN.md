@@ -1,6 +1,6 @@
 # H0 Screenshot Plan
 
-Status: MVP draft, not submitted, not paid.
+Status: credits requested; draft-only until AWS database evidence exists, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
 Required screenshots:
@@ -16,4 +16,3 @@ Pending user/platform screenshots:
 
 - Public deployed URL after Vercel deployment.
 - Devpost project draft page after user creates the project.
-

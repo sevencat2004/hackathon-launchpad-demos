@@ -1,6 +1,6 @@
 # Runbook Relay Agent
 
-Status: MVP draft, not submitted, not paid.
+Status: submitted to Splunk Agentic Ops Hackathon, not approved, not paid.
 Price: 20,000 USD total cash and feedback awards.
 
 Runbook Relay Agent is an agentic operations assistant for turning incident logs into root
@@ -33,4 +33,3 @@ npm.cmd run build:splunk
 ```
 
 The deployable static bundle is written to `D:\coin\hackathon-launchpad\dist\splunk`.
-

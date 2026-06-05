@@ -1,6 +1,6 @@
 # Sui 视频与提交指令
 
-Status: video uploaded, user-owned official submission step pending, not submitted, not approved, not paid.
+Status: DeepSurge project page created and visible, not approved, not paid.
 Price: Sui Overflow 2026 has 500,000+ USD in track prizes and 1,000,000+ USD in total prizes and seed funding; actual award is track-dependent.
 
 ## 什么时候用

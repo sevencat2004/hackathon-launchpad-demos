@@ -28,7 +28,7 @@ Each track has a separate project folder under `projects/`. First-stage completi
 
 1. `uipath-agenthack` - submitted to UiPath AgentHack, awaiting review.
 2. `splunk-agentic-ops` - submitted to Splunk Agentic Ops Hackathon, awaiting review.
-3. `sui-overflow` - built, video-ready, and packet-ready; next feasible submission through the official Sui form, using only a public Sui address if asked.
+3. `sui-overflow` - built, video-ready, packet-ready, and visible on DeepSurge; monitor official status and use only a public Sui address if later asked.
 4. `h0-zero-stack` - draft-ready only; final submission is blocked until a safe AWS account or credits path exists and real AWS database evidence is added.
 
 Current payment state: no project is approved or paid yet.

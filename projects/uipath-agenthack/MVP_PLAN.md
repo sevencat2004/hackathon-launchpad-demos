@@ -1,6 +1,6 @@
 # MVP Plan
 
-Status: first-stage started, not submitted, not paid.
+Status: submitted to UiPath AgentHack, not approved, not paid.
 Price: 50,000 USD cash prize pool.
 
 ## MVP Slice
@@ -24,4 +24,3 @@ Build a UiPath-oriented workflow that:
 - Create scoring and queue fixture shared with H0.
 - Create UiPath implementation notes.
 - Prepare demo script for Studio/Web platform once access is confirmed.
-

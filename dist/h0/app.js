@@ -73,7 +73,7 @@ function buildPacket() {
     `Deadline: ${deadline}`,
     `Score: ${scoreValue}/100`,
     `Recommendation: ${recommendationText}`,
-    "Status: MVP draft, not submitted, not paid",
+    "Status: credits requested; draft-only until AWS database evidence exists, not approved, not paid.",
     "",
     "Why:",
     ...reasonList.map((item) => `- ${item}`),

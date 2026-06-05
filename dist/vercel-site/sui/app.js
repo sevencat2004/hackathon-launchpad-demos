@@ -23,7 +23,7 @@ function isLikelySuiAddress(address) {
 function buildIntent(address) {
   const validRecipient = isLikelySuiAddress(address);
   return {
-    status: "dry-run intent, not signed, not submitted, not paid",
+    status: "dry-run intent, not signed, project page created, not approved, not paid",
     network: "Sui testnet-ready model",
     asset: "SUI",
     amountMist: "1000000000",
@@ -63,7 +63,7 @@ function buildPacket() {
   document.querySelector("#packet").textContent = [
     "Sui GrantFlow Agent reviewer packet",
     "",
-    "Status: MVP draft, not submitted, not paid.",
+    "Status: DeepSurge project page created and visible, not approved, not paid.",
     "Price: 500,000+ USD total prize pool shown by official Sui Overflow materials; award is track-dependent.",
     `Public address: ${address}`,
     `Address format valid: ${intent.validRecipient ? "yes" : "no / placeholder"}`,

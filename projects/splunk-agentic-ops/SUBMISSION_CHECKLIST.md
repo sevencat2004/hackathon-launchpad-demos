@@ -1,6 +1,6 @@
 # Submission Checklist
 
-Status: first-stage started, not submitted, not paid.
+Status: submitted to Splunk Agentic Ops Hackathon, not approved, not paid.
 Price: 20,000 USD total cash and feedback awards shown by official Devpost rules.
 
 - [ ] Confirm Splunk account access.
@@ -11,4 +11,3 @@ Price: 20,000 USD total cash and feedback awards shown by official Devpost rules
 - [ ] Prepare demo video.
 - [ ] Prepare Devpost writeup.
 - [ ] User completes final Devpost submission.
-

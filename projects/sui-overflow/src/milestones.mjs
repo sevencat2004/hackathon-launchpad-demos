@@ -1,7 +1,7 @@
 import { buildSuiPaymentIntent } from "./sui-intent.mjs";
 
 const project = {
-  status: "first-stage prototype, not submitted, not paid",
+  status: "DeepSurge project page created and visible, not approved, not paid",
   price: "500,000+ USD total prize pool shown by official Sui Overflow materials; award is track-dependent",
   title: "Sui GrantFlow Agent",
   publicWalletOnly: true,

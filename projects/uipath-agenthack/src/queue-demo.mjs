@@ -7,7 +7,7 @@ const inbox = JSON.parse(
 
 const queue = inbox.map((item, index) => ({
   rank: index + 1,
-  status: "first-stage prototype, not submitted, not paid",
+  status: "submitted to UiPath AgentHack, not approved, not paid",
   price: item.amount,
   source: item.source,
   title: item.title,
@@ -16,4 +16,3 @@ const queue = inbox.map((item, index) => ({
 }));
 
 console.log(JSON.stringify(queue, null, 2));
-

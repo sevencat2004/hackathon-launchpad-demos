@@ -1,6 +1,6 @@
 # H0 Submission Draft
 
-Status: MVP draft, not submitted, not paid.
+Status: credits requested; draft-only until AWS database evidence exists, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
 ## Project Name
@@ -40,4 +40,3 @@ with saved reports.
 ## User-Owned Steps
 
 Devpost submission, Vercel/AWS authorization, tax/KYC/payment onboarding.
-

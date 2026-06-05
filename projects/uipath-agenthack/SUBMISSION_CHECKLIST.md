@@ -1,6 +1,6 @@
 # Submission Checklist
 
-Status: first-stage started, not submitted, not paid.
+Status: submitted to UiPath AgentHack, not approved, not paid.
 Price: 50,000 USD cash prize pool.
 
 - [ ] Confirm UiPath access.
@@ -11,4 +11,3 @@ Price: 50,000 USD cash prize pool.
 - [ ] Publish supporting GitHub repo.
 - [ ] Prepare Devpost writeup.
 - [ ] User completes final Devpost submission.
-

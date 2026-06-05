@@ -1,6 +1,6 @@
 # H0 AWS 用户交接清单
 
-Status: blocked by missing AWS account, not submitted, not approved, not paid.
+Status: credits requested; draft-only until AWS database evidence exists, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
 ## 当前判断

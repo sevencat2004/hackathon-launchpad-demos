@@ -1,6 +1,6 @@
 # UiPath Deployment Notes
 
-Status: MVP draft, not submitted, not paid.
+Status: submitted to UiPath AgentHack, not approved, not paid.
 Price: 50,000 USD cash prize pool.
 
 ## Local Preview
@@ -42,4 +42,3 @@ User-owned steps:
 - Log in to UiPath.
 - Complete any verification or account setup.
 - Complete final Devpost submission and payment/KYC steps.
-

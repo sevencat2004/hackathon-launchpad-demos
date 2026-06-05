@@ -1,6 +1,6 @@
 # MVP Plan
 
-Status: first-stage started, not submitted, not paid.
+Status: submitted to Splunk Agentic Ops Hackathon, not approved, not paid.
 Price: 20,000 USD total cash and feedback awards shown by official Devpost rules.
 
 ## MVP Slice
@@ -25,4 +25,3 @@ Build a demo that:
 - Create incident scoring/explanation function.
 - Create runbook mapping.
 - Prepare Splunk integration checklist.
-

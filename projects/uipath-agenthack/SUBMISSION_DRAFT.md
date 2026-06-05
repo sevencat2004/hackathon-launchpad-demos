@@ -1,6 +1,6 @@
 # UiPath AgentHack Submission Draft
 
-Status: MVP draft, not submitted, not paid.
+Status: submitted to UiPath AgentHack, not approved, not paid.
 Price: 50,000 USD cash prize pool.
 
 ## Project Name
@@ -40,4 +40,3 @@ the queue to the available UiPath surface after platform access is confirmed.
 ## User-Owned Steps
 
 Devpost submission, UiPath account/platform access, tax/KYC/payment onboarding.
-

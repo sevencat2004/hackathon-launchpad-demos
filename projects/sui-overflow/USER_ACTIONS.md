@@ -1,6 +1,6 @@
 # User Actions
 
-Status: first-stage started, not submitted, not paid.
+Status: DeepSurge project page created and visible, not approved, not paid.
 Price: 500,000+ USD total prize pool shown by official Sui Overflow materials; actual award depends on track and judging.
 
 ## Required From User
@@ -16,4 +16,3 @@ Price: 500,000+ USD total prize pool shown by official Sui Overflow materials; a
 - Private key
 - Recovery phrase
 - One-time codes
-

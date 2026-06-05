@@ -1,6 +1,6 @@
 # User Actions
 
-Status: first-stage started, not submitted, not paid.
+Status: submitted to UiPath AgentHack, not approved, not paid.
 Price: 50,000 USD cash prize pool.
 
 ## Required From User

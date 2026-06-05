@@ -1,6 +1,6 @@
 # Submission Checklist
 
-Status: first-stage started, not submitted, not paid.
+Status: credits requested; draft-only until AWS database evidence exists, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
 - [ ] Confirm Devpost registration.

@@ -1,6 +1,6 @@
 # ClaimDesk Agent
 
-Status: MVP draft, not submitted, not paid.
+Status: submitted to UiPath AgentHack, not approved, not paid.
 Price: 50,000 USD cash prize pool.
 
 ClaimDesk Agent is a human-in-the-loop automation demo for triaging bounty, hackathon, and
@@ -32,4 +32,3 @@ npm.cmd run build:uipath
 ```
 
 The deployable static bundle is written to `D:\coin\hackathon-launchpad\dist\uipath`.
-

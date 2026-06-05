@@ -50,7 +50,7 @@ function renderQueue() {
   document.querySelector("#packet").textContent = [
     "ClaimDesk Agent automation packet",
     "",
-    "Status: MVP draft, not submitted, not paid.",
+    "Status: submitted to UiPath AgentHack, not approved, not paid.",
     "Price: 50,000 USD cash prize pool.",
     "",
     "Queue:",
@@ -70,4 +70,3 @@ document.querySelector("#copy").addEventListener("click", async () => {
 
 renderInbox();
 renderQueue();
-

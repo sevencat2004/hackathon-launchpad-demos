@@ -9,7 +9,7 @@ const slow = logs.filter((row) => row.latencyMs >= 1000);
 const services = [...new Set(logs.map((row) => row.service))];
 
 const incident = {
-  status: "first-stage prototype, not submitted, not paid",
+  status: "submitted to Splunk Agentic Ops Hackathon, not approved, not paid",
   price: "20,000 USD total cash and feedback awards",
   service: services[0] ?? "unknown",
   severity: errors.length >= 2 ? "high" : "medium",
@@ -32,4 +32,3 @@ const incident = {
 };
 
 console.log(JSON.stringify(incident, null, 2));
-

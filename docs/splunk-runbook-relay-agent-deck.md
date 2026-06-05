@@ -1,6 +1,6 @@
 # Runbook Relay Agent
 
-Status: Splunk Agentic Ops Hackathon draft, not submitted, not approved, not paid.
+Status: submitted to Splunk Agentic Ops Hackathon, not approved, not paid.
 Price: 20,000 USD total cash and feedback awards.
 
 ## 1. Project summary

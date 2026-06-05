@@ -1,7 +1,7 @@
 import { rankedOpportunities } from "../../../src/opportunities.mjs";
 
 const payload = {
-  status: "first-stage prototype, not submitted, not paid",
+  status: "credits requested; draft-only until AWS database evidence exists, not approved, not paid",
   price: "80,000 USD cash prize pool",
   product: "Zero Stack BountyOps",
   primaryFlow: "analyze opportunity, rank pursuit risk, export submission packet",
@@ -14,4 +14,3 @@ const payload = {
 };
 
 console.log(JSON.stringify(payload, null, 2));
-

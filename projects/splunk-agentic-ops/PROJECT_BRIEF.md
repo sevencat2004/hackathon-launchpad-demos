@@ -1,6 +1,6 @@
 # Splunk Agentic Ops Challenge
 
-Status: first-stage started, not submitted, not paid.
+Status: submitted to Splunk Agentic Ops Hackathon, not approved, not paid.
 Price: 20,000 USD total cash and feedback awards shown by official Devpost rules.
 
 ## Official Source Snapshot
@@ -25,4 +25,3 @@ before/after output: raw logs become triage, action plan, and audit summary.
 ## First-Stage Decision
 
 Proceed only as a narrow MVP. Use synthetic logs unless user provides a Splunk data source.
-

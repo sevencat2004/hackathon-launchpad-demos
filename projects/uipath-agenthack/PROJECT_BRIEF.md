@@ -1,6 +1,6 @@
 # UiPath AgentHack
 
-Status: first-stage started, not submitted, not paid.
+Status: submitted to UiPath AgentHack, not approved, not paid.
 Price: 50,000 USD cash prize pool.
 
 ## Official Source Snapshot
@@ -27,4 +27,3 @@ actions.
 ## First-Stage Decision
 
 Proceed after confirming UiPath platform access path.
-

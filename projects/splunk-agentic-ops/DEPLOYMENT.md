@@ -1,6 +1,6 @@
 # Splunk Deployment Notes
 
-Status: MVP draft, not submitted, not paid.
+Status: submitted to Splunk Agentic Ops Hackathon, not approved, not paid.
 Price: 20,000 USD total cash and feedback awards.
 
 ## Local Preview
@@ -36,4 +36,3 @@ D:\coin\hackathon-launchpad\dist\splunk
 The current MVP uses synthetic logs so it can be demonstrated without account access.
 To connect a real Splunk environment later, the user must provide the Splunk URL and a safe
 local token setup through `.env`; do not paste long-lived credentials into chat.
-
