@@ -62,7 +62,7 @@ writeFileSync(
   <body>
     <main class="shell">
       <section class="intro">
-        <p class="eyebrow">Four contest submissions, one deployable demo hub</p>
+        <p class="eyebrow">Four contest projects, one deployable demo hub</p>
         <h1>Hackathon Launchpad</h1>
         <p class="lede">A public preview hub for hackathon projects focused on agentic bounty triage, operations workflows, and reviewer-ready handoff packets.</p>
       </section>
