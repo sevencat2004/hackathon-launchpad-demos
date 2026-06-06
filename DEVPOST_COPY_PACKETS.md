@@ -1,9 +1,10 @@
 # Devpost copy packets
 
-Status: submission assets prepared; UiPath/Splunk submitted, Sui project page created, H0 draft-only; not approved, not paid.
+Status: submission assets prepared; UiPath/Splunk submitted, Sui project page created, H0 AWS DynamoDB verified; not approved, not paid.
 Price: mixed; H0 80,000 USD cash, UiPath 50,000 USD cash, Sui Overflow 500,000+ USD total prize pool / track-dependent, Splunk 20,000 USD total cash and feedback awards.
 
 Public demo hub: `https://hackathon-launchpad-demos.vercel.app`
+H0 Vercel project: `https://hackathon-launchpad-demos-gwik.vercel.app/h0/`
 
 ## H0: Zero Stack BountyOps
 
@@ -15,7 +16,7 @@ A planning desk for deciding which hackathons, bounties, and grants are actually
 
 Zero Stack BountyOps helps a builder make the first decision: should we pursue this or walk away?
 
-The dashboard scores an opportunity across theme fit, build autonomy, payout collectability, time pressure, and account risk. It then explains the result in plain language and generates a handoff packet with next steps, user owned actions, and submission notes.
+The dashboard scores an opportunity across theme fit, build autonomy, payout collectability, time pressure, and account risk. It then explains the result in plain language and generates a handoff packet with next steps, user owned actions, and submission notes. Saved reports are written through a Vercel API route to Amazon DynamoDB table `h0_reports`.
 
 ### Inspiration
 
@@ -23,7 +24,7 @@ We kept running into the same trap: a prize page looks attractive, then the real
 
 ### How we built it
 
-The MVP is a static web app built with HTML, CSS, JavaScript, and small Node.js build scripts. The scoring model is deliberately transparent so a reviewer can see how the recommendation changes when the practical risks change.
+The MVP is a Vercel-hosted web app built with HTML, CSS, JavaScript, a small Node.js API route, and Amazon DynamoDB. The browser handles the scoring workflow, while the serverless route writes saved report records to DynamoDB so the project uses an AWS database as the primary backend for report storage.
 
 ### Challenges
 
@@ -32,13 +33,13 @@ The hard part was keeping the tool honest. A score can look more certain than it
 ### Accomplishments
 
 - Built a working dashboard with adjustable scoring.
-- Added saved reports and Markdown packet export.
+- Added saved reports, DynamoDB-backed report storage, and Markdown packet export.
 - Prepared a public static deployment with a dedicated H0 path.
 - Wrote submission and demo scripts that separate builder work from account owner actions.
 
 ### What is next
 
-Connect live opportunity fetchers, add richer report history, and use the same scoring model to coordinate the other project tracks.
+Connect live opportunity fetchers, add richer report history and filtering, and use the same scoring model to coordinate the other project tracks.
 
 ## UiPath AgentHack: ClaimDesk Agent
 

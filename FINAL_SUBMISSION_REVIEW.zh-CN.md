@@ -18,11 +18,11 @@ Price: H0 80,000 USD cash; UiPath AgentHack 50,000 USD cash; Splunk Agentic Ops 
 ## H0 最终提交前检查
 
 - Project name: `Zero Stack BountyOps`
-- Demo link: `https://hackathon-launchpad-demos.vercel.app/h0/`
+- Demo link: `https://hackathon-launchpad-demos-gwik.vercel.app/h0/`
 - Screenshot: `D:\coin\hackathon-launchpad\outputs\devpost-upload-assets\01-h0-zero-stack-bountyops.png`
 - Source code: `https://github.com/sevencat2004/hackathon-launchpad-demos`
-- Must not claim: AWS production integration unless the page explicitly accepts prototype/static demo.
-- Stop if Devpost requires a required AWS service field and no safe prototype answer is available.
+- AWS database: Amazon DynamoDB table `h0_reports`, verified by public H0 save flow and live API check.
+- Stop before final submit and send screenshots for project-lead review.
 
 ## UiPath 最终提交前检查
 

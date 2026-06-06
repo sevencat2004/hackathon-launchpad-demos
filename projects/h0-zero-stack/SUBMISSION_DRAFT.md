@@ -33,10 +33,11 @@ actions, and submission assets.
 
 ## Current Build State
 
-The first prototype includes a local dashboard, dynamic scoring controls, generated risk
-reasons, and exportable packet text. Next step is converting it into a deployable web app
-with saved reports.
+The current prototype is deployed on Vercel and includes dynamic scoring controls,
+generated risk reasons, exportable packet text, and verified DynamoDB-backed saved
+reports through the `h0_reports` table.
 
 ## User-Owned Steps
 
-Devpost submission, Vercel/AWS authorization, tax/KYC/payment onboarding.
+Final Devpost submission, Vercel Team ID confirmation, tax/KYC/payment onboarding,
+and later AWS cleanup when the contest is over.
