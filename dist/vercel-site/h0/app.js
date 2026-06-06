@@ -153,7 +153,7 @@ async function saveCurrentReport() {
       renderSavedReports();
       return;
     }
-    saveStatus.textContent = "Saved locally. DynamoDB is not configured yet.";
+    saveStatus.textContent = "Saved locally. DynamoDB write did not complete.";
   } catch {
     saveStatus.textContent = "Saved locally. Cloud write is unavailable in this preview.";
   }

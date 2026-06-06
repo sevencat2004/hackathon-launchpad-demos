@@ -65,7 +65,7 @@ async function putReport(report) {
   const payload = JSON.stringify({
     TableName: tableName,
     Item: {
-      reportId: { S: reportId },
+      id: { S: reportId },
       title: { S: cleanText(report.url, "Untitled opportunity").slice(0, 300) },
       url: { S: cleanText(report.url).slice(0, 1000) },
       amount: { S: cleanText(report.amount).slice(0, 200) },
