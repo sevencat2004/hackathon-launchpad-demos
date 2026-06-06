@@ -1,9 +1,9 @@
 # H0 AWS compliance plan
 
-Status: credits approved, pending user redemption; draft-only until AWS database evidence exists, not approved, not paid.
+Status: AWS DynamoDB verified; final Devpost review pending, not submitted, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
-Current user state checked on 2026-06-04: user has no AWS account. H0 can remain a draft project, but final submission is blocked unless AWS promotional credits or another safe AWS account path becomes available.
+Current user state checked on 2026-06-06: AWS credits are granted, v0 credits are redeemed, DynamoDB table `h0_reports` exists, Vercel environment variables are configured, and the public H0 save flow writes to DynamoDB.
 
 ## Official requirement snapshot
 
@@ -13,14 +13,14 @@ Current user state checked on 2026-06-04: user has no AWS account. H0 can remain
 - Official submission fields checked on 2026-06-04 include Vercel project link, Vercel Team ID, architecture diagram, public repository, AWS Database usage screenshot, and a demo video.
 - Official credit note checked on 2026-06-04: participants can request AWS promotional credits through the event flow, with deadline and usage terms controlled by the organizer/AWS.
 
-## Current gap
+## Current state
 
 The current H0 demo is a public prototype deployed on Vercel:
 
 - Demo: `https://hackathon-launchpad-demos.vercel.app/h0/`
 - Repo: `https://github.com/sevencat2004/hackathon-launchpad-demos`
 
-It is good enough for a draft project page and reviewer discussion. The code now includes a DynamoDB-backed save route, but it is not final-submit ready for H0 until the route is connected to a real AWS account and the required evidence is captured.
+It is ready for final Devpost page review. The code includes a DynamoDB-backed save route, and the public H0 page has been verified saving a report to DynamoDB table `h0_reports`.
 
 ## Preferred implementation
 
@@ -43,15 +43,9 @@ flowchart LR
   API --> Logs["Basic request logs"]
 ```
 
-## Required user action
+## User-owned boundaries
 
-User must provide/authorize an AWS account path. Do not paste secrets in chat.
-
-Acceptable paths:
-
-1. User requests AWS promotional credits from the H0 event flow and confirms when available.
-2. If an AWS account later becomes available, user confirms it can be used for a small DynamoDB table.
-3. User creates a limited IAM access key outside chat and stores it only in Vercel Environment Variables when the project lead gives the exact variable names.
+User must complete final Devpost submission and any tax/KYC/prize steps. Do not paste secrets in chat.
 
 Do not send:
 
@@ -61,9 +55,9 @@ Do not send:
 - Billing card details
 - Tax/KYC details
 
-## Vercel environment variables to prepare later
+## Vercel environment variables
 
-Do not fill these until the AWS account is ready:
+Configured in Vercel with secret values hidden:
 
 - `AWS_REGION`
 - `AWS_ACCESS_KEY_ID`
@@ -74,16 +68,17 @@ Implemented route:
 
 - `projects\h0-zero-stack\api\h0-reports.js`
 - Deployed path after build: `/api/h0-reports`
-- Behavior: `POST` saves a report to DynamoDB when AWS variables are present; otherwise the browser keeps local draft storage and shows that DynamoDB is not configured yet.
+- Behavior: `POST` saves a report to DynamoDB when AWS variables are present; otherwise the browser keeps local draft storage and shows a cloud-write failure message.
 
-## Final submission evidence still needed
+## Final submission evidence
 
 - Architecture diagram screenshot or exported image.
-- AWS DynamoDB table screenshot showing the reports table.
-- Vercel Environment Variables screenshot with secrets hidden.
-- Demo video showing saving a report through the AWS-backed flow.
+- AWS DynamoDB table screenshot showing the reports table: captured by user.
+- Vercel Environment Variables screenshot with secrets hidden: captured by user.
+- H0 demo page showing `Saved to DynamoDB table h0_reports`: captured by user.
+- Demo video showing saving a report through the AWS-backed flow: update if Devpost reviewers need a fresh video.
 - Updated README section explaining the AWS database usage.
 
 ## Decision
 
-Create H0 Devpost draft now if useful, but stop before final submit. Final H0 submission is blocked until AWS database integration and evidence are complete.
+Proceed to final Devpost page preparation and project-lead review. Stop before final submit until the user shares the final page screenshot.

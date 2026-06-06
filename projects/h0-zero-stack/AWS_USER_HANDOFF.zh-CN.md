@@ -1,6 +1,6 @@
 # H0 AWS 用户交接清单
 
-Status: credits approved, pending user redemption; draft-only until AWS database evidence exists, not approved, not paid.
+Status: AWS DynamoDB verified; final Devpost review pending, not submitted, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
 ## 当前判断

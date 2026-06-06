@@ -1,6 +1,6 @@
 # Zero Stack BountyOps
 
-Status: credits approved, pending user redemption; draft-only until AWS database evidence exists, not approved, not paid.
+Status: AWS DynamoDB verified; final Devpost review pending, not submitted, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
 Zero Stack BountyOps is an agentic operations dashboard for deciding whether a hackathon,
@@ -15,14 +15,14 @@ bounty, or grant opportunity is worth pursuing.
 - packet generation
 - copy action
 - local saved reports
-- optional DynamoDB-backed saved reports through `/api/h0-reports`
+- verified DynamoDB-backed saved reports through `/api/h0-reports`
 - Markdown packet download
 
 ## AWS-backed Save Path
 
-The H0 final submission needs an AWS database primary backend. This project now includes
-a Vercel Serverless Function at `api/h0-reports.js` that writes saved reports to DynamoDB
-when the required environment variables are present.
+The H0 final submission needs an AWS database primary backend. This project includes
+a Vercel Serverless Function at `api/h0-reports.js` that writes saved reports to the
+verified DynamoDB table `h0_reports` when the required environment variables are present.
 
 Required Vercel Environment Variables:
 
@@ -38,8 +38,8 @@ Optional:
 The browser never receives AWS credentials. If the API is not configured yet, the app keeps
 using local draft storage and shows a clear status message.
 
-Final H0 submission remains blocked until a real AWS account or promotional-credit path is
-available and the required database evidence is captured.
+Final H0 submission remains pending until the final Devpost page is reviewed and the user
+submits from the user-owned Devpost account.
 
 Submission support:
 

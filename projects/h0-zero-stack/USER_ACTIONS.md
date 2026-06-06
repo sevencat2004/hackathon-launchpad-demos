@@ -1,6 +1,6 @@
 # User Actions
 
-Status: credits approved, pending user redemption; draft-only until AWS database evidence exists, not approved, not paid.
+Status: AWS DynamoDB verified; final Devpost review pending, not submitted, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
 ## Required From User
@@ -8,10 +8,9 @@ Price: 80,000 USD cash prize pool.
 - Register or log in to Devpost.
 - Confirm team identity and final submitter account.
 - Provide or authorize Vercel access for deployment.
-- Current user state: H0 AWS/v0 credits approved by email, pending user redemption/account setup.
-- Redeem the AWS and v0 credits only on the official account pages from the organizer email.
-- Provide or authorize AWS access only after credits are redeemed and an AWS account is safely available.
-- Later add AWS variables only inside Vercel Environment Variables when the project lead gives exact names.
+- Current user state: H0 AWS/v0 credits redeemed/granted, DynamoDB table created, Vercel environment variables added, and save flow verified.
+- Keep AWS/Vercel screenshots with secrets hidden for final submission evidence.
+- Wait for project lead final review before submitting H0 on Devpost.
 - Complete any tax, KYC, prize, or payment onboarding if selected.
 
 ## Do Not Share

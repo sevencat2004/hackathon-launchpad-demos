@@ -1,6 +1,6 @@
 # H0 Deployment Notes
 
-Status: credits approved, pending user redemption; draft-only until AWS database evidence exists, not approved, not paid.
+Status: AWS DynamoDB verified; final Devpost review pending, not submitted, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
 ## Local Preview
@@ -60,7 +60,7 @@ Optional for temporary AWS credentials:
 AWS_SESSION_TOKEN
 ```
 
-The recommended DynamoDB table key is `reportId` as a string partition key. The API uses
+The verified DynamoDB table key is `id` as a string partition key. The API uses
 `PutItem` and stores opportunity URL, amount, deadline, score, recommendation, packet text,
 and creation time.
 

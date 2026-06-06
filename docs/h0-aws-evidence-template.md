@@ -1,9 +1,9 @@
 # H0 AWS Evidence Template
 
-Status: template only, not submitted, not approved, not paid.
+Status: AWS DynamoDB verified; final Devpost review pending, not submitted, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
-Use this only after a real AWS database has been created and verified.
+Use this for the final H0 Devpost AWS evidence packet.
 
 ## Database choice
 
@@ -63,6 +63,6 @@ The demo video should show:
 4. A brief view of the DynamoDB table with secret values hidden.
 5. A short explanation that DynamoDB is the primary backend.
 
-## Current blocker
+## Current result
 
-H0 AWS/v0 credits are approved but pending user redemption and account setup. Until AWS is available and the evidence above is captured, H0 should remain draft-only and should not be final-submitted.
+AWS/v0 credits are active, DynamoDB table `h0_reports` is created, Vercel environment variables are configured, and the public H0 page has saved a report to DynamoDB. Final submit still needs project-lead review of the Devpost page.

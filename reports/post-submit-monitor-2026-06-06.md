@@ -12,7 +12,7 @@ Checked: 2026-06-06 Asia/Shanghai.
 | ClaimDesk Agent | Submitted to UiPath AgentHack and public demo is live | not approved, not paid | monitor Devpost/email |
 | Runbook Relay Agent | Submitted to Splunk Agentic Ops Hackathon and public demo is live | not approved, not paid | monitor Devpost/email |
 | Sui GrantFlow Agent | DeepSurge project page created and public demo is live | not approved, not paid | monitor DeepSurge/email |
-| Zero Stack BountyOps | H0 AWS/v0 credits approved by email; redemption and AWS database evidence still pending | not submitted, not approved, not paid | user redeems credits, then Codex guides DynamoDB/Vercel/evidence |
+| Zero Stack BountyOps | AWS DynamoDB verified; final Devpost review pending | not submitted, not approved, not paid | stop on final Devpost review page and send screenshots |
 
 ## H0 credit evidence
 
@@ -25,16 +25,17 @@ Checked: 2026-06-06 Asia/Shanghai.
 
 ## Decision
 
-H0 moved from `credits requested` to `credits approved, pending user redemption`.
+H0 moved from `credits requested` to `credits approved`, then to `AWS DynamoDB verified`.
 
-H0 is still not final-submittable. Required next evidence:
+H0 is technically ready for final Devpost page preparation. Verified evidence:
 
-1. AWS credit redemption/account readiness screenshot with redemption code hidden.
-2. v0 credit redemption screenshot with redemption code hidden.
-3. Real AWS database setup, recommended DynamoDB table `h0_reports`.
-4. Vercel environment variables with secret values hidden.
-5. Redeployed public H0 page using real AWS database evidence.
-6. Final Devpost page review before user final-submits.
+1. AWS credits granted and v0 credits redeemed.
+2. Real DynamoDB table `h0_reports` created.
+3. Vercel environment variables added with secret values hidden.
+4. Production redeployed.
+5. Public H0 page saved a report to DynamoDB table `h0_reports`.
+6. Live API verification through proxy returned `stored=true`, backend `dynamodb`, table `h0_reports`, region `us-east-1`, reportId `7e953ed8-e8c6-4f94-8350-0759a2cc5345`.
+7. Remaining step: final Devpost page review before user final-submits.
 
 ## User-owned boundaries
 

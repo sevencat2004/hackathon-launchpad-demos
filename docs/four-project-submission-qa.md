@@ -12,7 +12,7 @@ Checked: 2026-06-06 Asia/Shanghai.
 | ClaimDesk Agent | Submitted to UiPath AgentHack | not approved, not paid | watch email |
 | Runbook Relay Agent | Submitted to Splunk Agentic Ops Hackathon | not approved, not paid | watch email |
 | Sui GrantFlow Agent | DeepSurge project page created and visible; official review/status still needs monitoring | not approved, not paid | watch DeepSurge/email for status or warnings; provide public Sui address only if officially requested |
-| Zero Stack BountyOps | Credits approved; final blocked until user redemption and AWS database evidence | not submitted, not approved, not paid | redeem AWS/v0 credits, then send screenshots with codes hidden |
+| Zero Stack BountyOps | AWS DynamoDB verified; final Devpost review pending | not submitted, not approved, not paid | stop on final Devpost review page and send screenshots |
 
 ## UiPath AgentHack - ClaimDesk Agent
 
@@ -93,24 +93,24 @@ Evidence:
 - Public repo: `https://github.com/sevencat2004/hackathon-launchpad-demos`.
 - Local video: `D:\coin\hackathon-launchpad\outputs\h0-zero-stack-bountyops-demo.mp4`.
 - AWS compliance plan: `projects/h0-zero-stack/AWS_COMPLIANCE_PLAN.md`.
-- Optional DynamoDB-compatible API scaffold: `projects/h0-zero-stack/api/h0-reports.js`.
+- Verified DynamoDB API route: `projects/h0-zero-stack/api/h0-reports.js`.
+- User screenshot shows public H0 page saved to DynamoDB table `h0_reports`.
 
 QA result:
 
-- Draft materials are strong enough for internal prep.
-- Final submission is not ready because credits are approved but not yet redeemed and no AWS database evidence exists.
-- H0 requires real AWS database evidence for a proper final submission.
+- AWS database requirement is now met with DynamoDB table `h0_reports`.
+- Public H0 save flow is verified against DynamoDB.
+- Final submission is waiting for Devpost page review and user-owned final submit.
 
 Remaining user-owned actions:
 
-- User redeems the approved AWS and v0 credits on official account pages.
-- User sends redemption/account-readiness screenshots with codes, billing details, and secrets hidden.
+- Stop on the final H0 Devpost review page and send screenshots.
 - User must handle AWS account, billing, identity, and any tax/payment requirements.
 
 Do not claim:
 
-- Do not claim an active AWS backend.
-- Do not claim DynamoDB/Aurora evidence until real screenshots/configuration exist.
+- Do not expose AWS access keys, secret keys, billing details, or verification codes.
+- Do not final-submit until the project lead reviews the final Devpost page.
 
 ## Verification commands
 
@@ -133,4 +133,4 @@ npm.cmd run intent 0x11111111111111111111111111111111111111111111111111111111111
 
 1. UiPath and Splunk are submitted. Wait and monitor.
 2. Sui has a visible DeepSurge project page; monitor official status, warning banners, and email. Provide only a public Sui address if the official flow later asks for one.
-3. H0 stays draft-only until credits are redeemed and AWS database evidence exists.
+3. H0 moves to final Devpost page review; do not submit until screenshots are checked.

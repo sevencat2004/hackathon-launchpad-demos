@@ -30,7 +30,7 @@ function buildReasons(values) {
   if (values.themeFit >= 8) list.push("Strong hackathon-theme fit: agentic full-stack product work.");
   if (values.autonomy >= 8) list.push("The team can prepare most code, docs, demo script, and export assets without waiting on extra platform access.");
   if (values.collectability <= 6) list.push("Contest judging means payout is not guaranteed even with a complete build.");
-  if (values.accountRisk >= 6) list.push("User-owned account steps remain: Devpost, Vercel, AWS credit redemption, prize/KYC.");
+  if (values.accountRisk >= 6) list.push("User-owned account steps remain: final Devpost submit, prize/KYC, and later AWS cleanup.");
   if (values.timeRisk >= 7) list.push("Deadline pressure is high; keep the MVP narrow.");
   if (list.length === 0) list.push("No major risk reason triggered by the current inputs.");
   return list;
@@ -38,7 +38,7 @@ function buildReasons(values) {
 
 function recommendationFor(scoreValue) {
   if (scoreValue >= 70) return "Primary build target";
-  if (scoreValue >= 58) return "Build after access is clear";
+  if (scoreValue >= 58) return "Ready for final review";
   if (scoreValue >= 45) return "Keep warm, narrow the scope";
   return "Do not pursue without new evidence";
 }
@@ -73,27 +73,28 @@ function buildPacket() {
     `Deadline: ${deadline}`,
     `Score: ${scoreValue}/100`,
     `Recommendation: ${recommendationText}`,
-    "Status: credits approved, pending user redemption; draft-only until AWS database evidence exists, not approved, not paid.",
+    "Status: AWS DynamoDB verified; final Devpost review pending, not submitted, not approved, not paid.",
     "",
     "Why:",
     ...reasonList.map((item) => `- ${item}`),
     "",
     "Next build milestone:",
-    "- Convert this dashboard to the deployable H0 app.",
-    "- Keep saved opportunity reports working locally and through the optional DynamoDB API.",
-    "- Export Devpost-ready README, screenshots, and demo script.",
-    "- Connect DynamoDB only after AWS credits are redeemed and an AWS account is safely available.",
+    "- Keep the Vercel demo public.",
+    "- Use DynamoDB table h0_reports as the AWS-backed report store.",
+    "- Keep screenshots with secret values hidden for Devpost evidence.",
+    "- Review the final Devpost page before submit.",
     "",
     "User-owned steps:",
     "- Register/log in to Devpost.",
-    "- Redeem the approved AWS and v0 credits before final submit.",
-    "- Complete final submission and prize/KYC/payment actions."
+    "- Stop on the final Devpost review page and send screenshots.",
+    "- Complete final submission and prize/KYC/payment actions.",
+    "- After the contest ends, delete AWS resources or close the AWS account."
   ].join("\n");
 
   packet.textContent = text;
   score.textContent = String(scoreValue);
   recommendation.textContent = recommendationText;
-  summary.textContent = `${amount} with deadline ${deadline}. Keep H0 as a draft until approved credits are redeemed and AWS database evidence exists.`;
+  summary.textContent = `${amount} with deadline ${deadline}. AWS DynamoDB is verified; keep H0 ready for final Devpost review.`;
   reasons.innerHTML = reasonList.map((item) => `<li>${item}</li>`).join("");
   return { url, amount, deadline, scoreValue, recommendationText, text };
 }
