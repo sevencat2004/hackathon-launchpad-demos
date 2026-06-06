@@ -1,7 +1,7 @@
 import { rankedOpportunities } from "../../../src/opportunities.mjs";
 
 const payload = {
-  status: "credits requested; draft-only until AWS database evidence exists, not approved, not paid",
+  status: "credits approved, pending user redemption; draft-only until AWS database evidence exists, not approved, not paid",
   price: "80,000 USD cash prize pool",
   product: "Zero Stack BountyOps",
   primaryFlow: "analyze opportunity, rank pursuit risk, export submission packet",

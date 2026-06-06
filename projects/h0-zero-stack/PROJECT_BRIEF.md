@@ -1,6 +1,6 @@
 # H0: Hack the Zero Stack
 
-Status: credits requested; draft-only until AWS database evidence exists, not approved, not paid.
+Status: credits approved, pending user redemption; draft-only until AWS database evidence exists, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
 ## Official Source Snapshot

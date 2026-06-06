@@ -3,7 +3,7 @@
 Status: operating QA snapshot.
 Price: H0 80,000 USD cash; UiPath 50,000 USD cash; Sui Overflow 500,000+ USD track prizes / 1,000,000+ USD total prizes and seed funding; Splunk 20,000 USD total cash and feedback awards.
 
-Checked: 2026-06-05 Asia/Shanghai.
+Checked: 2026-06-06 Asia/Shanghai.
 
 ## Executive state
 
@@ -12,7 +12,7 @@ Checked: 2026-06-05 Asia/Shanghai.
 | ClaimDesk Agent | Submitted to UiPath AgentHack | not approved, not paid | watch email |
 | Runbook Relay Agent | Submitted to Splunk Agentic Ops Hackathon | not approved, not paid | watch email |
 | Sui GrantFlow Agent | DeepSurge project page created and visible; official review/status still needs monitoring | not approved, not paid | watch DeepSurge/email for status or warnings; provide public Sui address only if officially requested |
-| Zero Stack BountyOps | Built as draft; final blocked by no AWS account | not approved, not paid | no action unless AWS account/credits become available |
+| Zero Stack BountyOps | Credits approved; final blocked until user redemption and AWS database evidence | not submitted, not approved, not paid | redeem AWS/v0 credits, then send screenshots with codes hidden |
 
 ## UiPath AgentHack - ClaimDesk Agent
 
@@ -98,12 +98,13 @@ Evidence:
 QA result:
 
 - Draft materials are strong enough for internal prep.
-- Final submission is not ready because the user confirmed no AWS account.
+- Final submission is not ready because credits are approved but not yet redeemed and no AWS database evidence exists.
 - H0 requires real AWS database evidence for a proper final submission.
 
 Remaining user-owned actions:
 
-- Only proceed if user creates or receives access to a safe AWS account/credits path.
+- User redeems the approved AWS and v0 credits on official account pages.
+- User sends redemption/account-readiness screenshots with codes, billing details, and secrets hidden.
 - User must handle AWS account, billing, identity, and any tax/payment requirements.
 
 Do not claim:
@@ -132,4 +133,4 @@ npm.cmd run intent 0x11111111111111111111111111111111111111111111111111111111111
 
 1. UiPath and Splunk are submitted. Wait and monitor.
 2. Sui has a visible DeepSurge project page; monitor official status, warning banners, and email. Provide only a public Sui address if the official flow later asks for one.
-3. H0 stays draft-only until AWS is solved.
+3. H0 stays draft-only until credits are redeemed and AWS database evidence exists.

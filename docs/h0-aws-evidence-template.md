@@ -65,4 +65,4 @@ The demo video should show:
 
 ## Current blocker
 
-The user has confirmed that no AWS account is available right now. Until AWS is available and the evidence above is captured, H0 should remain draft-only and should not be final-submitted.
+H0 AWS/v0 credits are approved but pending user redemption and account setup. Until AWS is available and the evidence above is captured, H0 should remain draft-only and should not be final-submitted.

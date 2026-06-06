@@ -42,6 +42,7 @@ check(existsSync(path.join(root, "VIDEO_STORYBOARDS.md")), "root video storyboar
 check(existsSync(path.join(root, "VERCEL_DEPLOYMENT_PACKET.zh-CN.md")), "root Vercel deployment packet exists");
 check(existsSync(path.join(root, "reports", "post-submit-monitor-2026-06-04.md")), "post-submit monitor report exists");
 check(existsSync(path.join(root, "reports", "post-submit-monitor-2026-06-05.md")), "2026-06-05 post-submit monitor report exists");
+check(existsSync(path.join(root, "reports", "post-submit-monitor-2026-06-06.md")), "2026-06-06 post-submit monitor report exists");
 check(existsSync(path.join(root, "docs", "uipath-claimdesk-agent-deck.md")), "UiPath presentation deck exists");
 check(existsSync(path.join(root, "docs", "splunk-runbook-relay-agent-deck.md")), "Splunk presentation deck exists");
 check(existsSync(path.join(root, "docs", "sui-grantflow-agent-submission-packet.md")), "Sui submission packet exists");

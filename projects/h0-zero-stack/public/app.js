@@ -30,7 +30,7 @@ function buildReasons(values) {
   if (values.themeFit >= 8) list.push("Strong hackathon-theme fit: agentic full-stack product work.");
   if (values.autonomy >= 8) list.push("The team can prepare most code, docs, demo script, and export assets without waiting on extra platform access.");
   if (values.collectability <= 6) list.push("Contest judging means payout is not guaranteed even with a complete build.");
-  if (values.accountRisk >= 6) list.push("User-owned account steps remain: Devpost, Vercel, AWS credits or account path, prize/KYC.");
+  if (values.accountRisk >= 6) list.push("User-owned account steps remain: Devpost, Vercel, AWS credit redemption, prize/KYC.");
   if (values.timeRisk >= 7) list.push("Deadline pressure is high; keep the MVP narrow.");
   if (list.length === 0) list.push("No major risk reason triggered by the current inputs.");
   return list;
@@ -73,7 +73,7 @@ function buildPacket() {
     `Deadline: ${deadline}`,
     `Score: ${scoreValue}/100`,
     `Recommendation: ${recommendationText}`,
-    "Status: credits requested; draft-only until AWS database evidence exists, not approved, not paid.",
+    "Status: credits approved, pending user redemption; draft-only until AWS database evidence exists, not approved, not paid.",
     "",
     "Why:",
     ...reasonList.map((item) => `- ${item}`),
@@ -82,18 +82,18 @@ function buildPacket() {
     "- Convert this dashboard to the deployable H0 app.",
     "- Keep saved opportunity reports working locally and through the optional DynamoDB API.",
     "- Export Devpost-ready README, screenshots, and demo script.",
-    "- Connect DynamoDB only if AWS credits or an AWS account become available.",
+    "- Connect DynamoDB only after AWS credits are redeemed and an AWS account is safely available.",
     "",
     "User-owned steps:",
     "- Register/log in to Devpost.",
-    "- Request H0 AWS credits or provide an AWS account path before final submit.",
+    "- Redeem the approved AWS and v0 credits before final submit.",
     "- Complete final submission and prize/KYC/payment actions."
   ].join("\n");
 
   packet.textContent = text;
   score.textContent = String(scoreValue);
   recommendation.textContent = recommendationText;
-  summary.textContent = `${amount} with deadline ${deadline}. Keep H0 as a draft until AWS credits or an account path is available.`;
+  summary.textContent = `${amount} with deadline ${deadline}. Keep H0 as a draft until approved credits are redeemed and AWS database evidence exists.`;
   reasons.innerHTML = reasonList.map((item) => `<li>${item}</li>`).join("");
   return { url, amount, deadline, scoreValue, recommendationText, text };
 }

@@ -1,6 +1,6 @@
 # H0 AWS compliance plan
 
-Status: credits requested; draft-only until AWS database evidence exists, not approved, not paid.
+Status: credits approved, pending user redemption; draft-only until AWS database evidence exists, not approved, not paid.
 Price: 80,000 USD cash prize pool.
 
 Current user state checked on 2026-06-04: user has no AWS account. H0 can remain a draft project, but final submission is blocked unless AWS promotional credits or another safe AWS account path becomes available.
